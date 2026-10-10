@@ -1,0 +1,743 @@
+Ludwig von Bertalanffy
+
+Leben Denken und Arbeitsweise
+
+Vertiefte Recherchefassung für Florian
+9. Oktober 2026 · Arbeitsstand v0_4
+
+Bertalanffys leitende Frage ist die Organisation lebender Prozesse. [Q20] Später verbindet er sie mit einem aktiven, symbolschaffenden Menschenbild. [Q26] Sein wissenschaftlicher Einheitsanspruch bleibt Gegenstand konkreter Einwände. [Q28–Q30] Seine NSDAP-Mitgliedschaft ist dokumentiert. [Q25]
+
+Dieses Dossier erschließt Bertalanffy als historisch veränderlichen Menschen und Wissenschaftler. Es verbindet Lebensstationen mit tatsächlich gelesenen Argumenten, konkreten Arbeitssituationen, Beziehungen und Gegenstimmen. Damit entsteht eine überprüfbare Grundlage für die weitere Beschäftigung mit seiner Person. Sie spricht nicht an seiner Stelle und behauptet keinen Zugang zu seiner vollständigen Innenwelt.
+
+Die Beleglage bleibt ungleich. Mehrere tragende Originaltexte und bestimmte zusammenhängende Buchabschnitte sind erschlossen. Andere Hauptwerke, politische Originaltexte und persönliche Aufzeichnungen bleiben offen. Diese Fassung vertieft die ältere Kurzfassung erheblich, ist aber keine abgeschlossene Gesamtbiografie. Ein Katalogeintrag bedeutet keine Manuskriptlektüre; eine vorhandene Buchdatei keine Prüfung jedes Kapitels.
+
+Die Aussagearten
+
+Befund bezeichnet eine überprüfbare Veröffentlichung, Handlung, Verwaltungsangabe oder ein abgegrenztes Originalargument. Selbstzeugnis bezeichnet Bertalanffys eigene Darstellung. Fremdzeugnis bezeichnet die Aussage eines anderen Menschen; Nähe, Anlass und zeitlicher Abstand beeinflussen ihr Gewicht. Deutung bezeichnet eine kenntlich gemachte Interpretation. Offen bleiben Fragen, für die Überlieferung, Zugang oder Prüfung noch nicht ausreichen.
+
+Eine wissenschaftliche Position wird nicht automatisch zur Persönlichkeitseigenschaft. Ein eingestandenes Problem beweist keine dauerhafte Bescheidenheit; ein scharfer Widerspruch keine psychologische Diagnose. Seine erklärten Werte werden mit belegten Formulierungen und Handlungen betrachtet. Forschungsleistungen und spätere Selbstdeutungen ersetzen keine Untersuchung seiner politischen Geschichte. Umgekehrt wird eine biologische Rechnung nicht allein durch die politische Biografie widerlegt.
+
+Quellenkürzel führen zum Register. Absatzkennungen dienen als eindeutige Anker. Das Register benennt Ausgabe, Sprache, Leseumfang, Vermittlung und Zugang. Wiederabdrucke, Übersetzungen und mehrere Kopien desselben Textes sind keine zusätzlichen unabhängigen Stimmen. Kurze Darstellungen historischer medizinischer Forschung sind keine heutigen Behandlungsempfehlungen.
+
+Weg durch das Dossier
+
+1 Lebensphasen und historische Bedingungen
+2 Frühe organismische Biologie und ihre Entwicklung
+3 Offene Systeme und allgemeine Systemlehre
+4 Empirische Methoden und konkrete Forschungsfälle
+5 Psychologie Erkenntnis und öffentliche Werte
+6 Beziehungen Institutionen und Mitwirkende
+7 Arbeitsweise und persönliche Zeugnisse
+8 Gegenstimmen Zugeständnisse und datierte Veränderungen
+9 Zusammenführung und offene Vertiefung
+10 Aussagen und Quellenregister
+
+1 Lebensphasen und historische Bedingungen
+
+Herkunft Ausbildung und Ortswechsel
+
+A01. Ludwig von Bertalanffy wurde am 19. September 1901 in Atzgersdorf geboren und starb am 12. Juni 1972 in Buffalo. Er studierte in Innsbruck und Wien, promovierte 1926 in Philosophie und habilitierte sich 1934 für Theoretische Biologie. Auf eine Privatdozentur folgte 1940 eine außerplanmäßige Professur. Nach Krieg und Entnazifizierung führte sein Weg über Großbritannien nach Kanada. Stationen waren Montréal, Ottawa, Stanford, Los Angeles, Topeka, ab 1961 Edmonton und ab 1969 Buffalo. Seine Laufbahn verband Anerkennung mit Konflikten und unsicheren Beschäftigungsverhältnissen. Seit 1925 war er mit Maria Bauer verheiratet; ihr Sohn Felix wurde Anatom und Krebsforscher. Die akademische Bewegung zwischen Biologie, Medizin, Psychologie und Philosophie gehört zum Verständnis seines Lebens. [Q2]
+
+Philosophische Voraussetzungen
+
+A02. Der frühere Kollege Thaddus Weckowicz hebt Bertalanffys Verbindung von Naturwissenschaft und Geisteswissenschaft hervor. Fechner, Spengler, Nikolaus von Kues und Vaihinger bildeten wichtige Bezugspunkte. Die Dissertation über höhere Integrationen nahm die spätere Frage nach übergeordneten Zusammenhängen vorweg. Cusanus bot einen Zugang zu begrenzter, perspektivischer Erkenntnis; Vaihinger lenkte Aufmerksamkeit auf die Funktion begrifflicher Konstruktionen. Weckowicz liest diese Einflüsse als Voraussetzungen einer wissenschaftlichen Haltung, die Beobachtungen nicht für voraussetzungslos hält. Das ist eine interpretierende Rekonstruktion, keine vollständige Auflösung seiner philosophischen Herkunft. Insbesondere darf Interesse an Mystik weder mit privater Religionspraxis noch mit einer Absage an empirische Forschung gleichgesetzt werden. Die Quelle ist wohlwollend und bei einzelnen Karrieredaten gegenüber neuerer Forschung korrekturbedürftig. [Q14, PDF-S. 2-5]
+
+Nationalsozialismus und spätere Selbstdarstellung
+
+A03. Pouvreaus Archivbiografie dokumentiert Bertalanffys NSDAP-Antrag und Mitgliedschaft 1938, berufliche Begünstigungen sowie nationalsozialistische und rassistische Aussagen 1941. Sie zeigt außerdem widersprüchliche Selbstauskünfte im Entnazifizierungsverfahren. Die dort ausgewerteten Personal- und Entnazifizierungsakten wurden hier nicht direkt im Volltext gelesen. Pouvreaus Deutung als überwiegend karrierebezogener Opportunismus bleibt eine Historikerinterpretation; sie hebt die Verantwortung für dokumentierte Handlungen nicht auf. Auch spätere Konflikte verlangen konkrete Prüfung: Der Ottawa-Streit betraf unter anderem Leitung, Lehre und Beurlaubung und endete 1954 in einer vereinbarten Trennung. Daraus folgt keine nachgewiesene gerichtliche Feststellung unrechtmäßiger Kündigung. Briefe aus solchen Situationen belegen Interessen und Vorwürfe, nicht automatisch deren objektive Berechtigung oder einen unveränderlichen Charakter. [Q1, S. 30-44, 57-62]
+
+A03a. Der Beitrag von 1934 enthält den Führerprinzipvergleich (S. 352), ist jedoch mit „Nach Ludwig von Bertalanffy“ überschrieben; seine unmittelbare Urheberschaft am Wortlaut ist daraus allein nicht gesichert. [Q19, S. 339, 352] Der Artikel behandelt Ordnung und Wechselbeziehungen von Teilen und Prozessen in Zelltheorie, Entwicklung, Genetik, Wachstum, Ökologie und Gestaltpsychologie. Im Kontext der Führerprinzip-Metapher stehen Rangordnung, zentrale Organe und Insektenstaaten. Der Haupttext endet auf S. 365, die Bibliografie oben auf S. 366; der anschließend beginnende Artikel von Hans Oppermann gehört nicht dazu.
+
+B25. Die bei NARA überlieferte Parteiverwaltungskarte ergänzt die spätere Biografie durch einen direkten Archivbefund. Name, Berufsangabe Privatdozent, Geburtsdatum 19. September 1901 und Atzgersdorf stützen die Zuordnung. Unter „Aufnahme beantragt am“ steht der 20. November 1938, unter „Aufn.“ der 1. Mai 1938. Die Feldzuordnung bleibt unverändert; die Karte erklärt den zeitlichen Abstand nicht. Sie belegt Verwaltungseinträge, kein vorgelegtes unterschriebenes Antragsformular. Der Entstehungszeitpunkt dieser Kartenansicht, Motive und Umfang einer Parteitätigkeit lassen sich daraus nicht bestimmen. Die Lesung wurde unabhängig am Bild gegengeprüft. [Q25]
+
+Edmonton und der Übergang nach Buffalo
+
+B41. Der Universitätskalender 1962–1963 macht Bertalanffys Stellung in Edmonton genauer sichtbar. Das Personalverzeichnis nennt beim Professor of Theoretical Biology die Jahre 1961 und 1962. Die Legende erklärt sie als Ersteinstellung beziehungsweise Erreichen des gegenwärtigen Rangs. Ankunft 1961 und Professorrang 1962 sind somit kein Widerspruch. Zusätzlich führen ihn die Abschnitte zu Philosophie, Psychologie und Zoologie. Das belegt institutionell verankerte fachübergreifende Zuordnung; einzelne Unterrichtsabläufe oder Arbeitsanteile lassen sich aus dem Kalender nicht ablesen. [Q41, S. 136, 151, 160, 584, 586]
+
+B36. Der Alberta-Nachruf von 1972 erinnert an frühere Gastprofessuren in Zoologie und Psychologie, den Professorrang für Theoretische Biologie ab 1962 und die Arbeit am Centre for Advanced Study in Theoretical Psychology. Er nennt das Ausscheiden 1969 und die anschließende Buffalo-Zeit. Der Rang University Professor wird als Ausdruck fachübergreifender Tätigkeit beschrieben. Als zeitnahes Institutionszeugnis ergänzt der Text die Archivbiografie. Seine komprimierten Angaben zur Wiener Ausbildung sind jedoch ungenau und werden nicht ungeprüft übernommen. Eine Ehrenbezeichnung ist noch kein konkreter Nachweis seines Lehrstils. [Q36, S. 1]
+
+B37. Eine Personalnachricht vom 3. Juli 1969 bestätigt den Übergang nach Buffalo bereits während seines Vollzugs. Die Universität nennt Bertalanffy neben James Barrington als bisherigen Träger des besonderen Rangs University Professor und berichtet den Wechsel auf eine Distinguished-Service-Professur. Der Text verankert die Statusänderung zeitgenössisch. Er erklärt weder alle Gründe des Weggangs noch seine konkreten Aufgaben in Buffalo. [Q37, S. 1]
+
+A17. Das Mitgliederverzeichnis der Leopoldina weist Bertalanffys Aufnahme für 1968 aus. Dieses konkrete Datum ist gegenüber abweichenden biografischen Andeutungen vorzuziehen. [Q13]
+
+2 Frühe organismische Biologie und ihre Entwicklung
+
+Die Werklandschaft
+
+A04. Die Bibliografie macht mehrere Arbeitslinien sichtbar. Kritische Theorie der Formbildung (1928), Theoretische Biologie (1932/1942) und Das Gefüge des Lebens (1937) entwickelten die biologische Perspektive. Biologie und Medizin (1946), Das biologische Weltbild (1949) und Biophysik des Fließgleichgewichts (1953) führten sie in andere Darstellungsformen. Später kamen Robots, Men and Minds (1967), Organismic Psychology and Systems Theory (1968) und General System Theory (1968) hinzu. Philosophie und Kulturkritik begleiteten diese Entwicklung, statt erst am Ende aufzutreten. Mit Gessner wirkte Bertalanffy am Handbuch der Biologie, mit Rapoport am Jahrbuch General Systems. Diese Übersicht beschreibt Arbeitsgebiete; ein bibliografischer Nachweis ist keine Inhaltslektüre jedes Werkes. [Q10]
+
+Frühe Hypothesen von 1927 und 1929
+
+B22. Eine frühere Position wird im Aufsatz von 1927 sichtbar. Bertalanffy prüft die Erklärungskraft von Mechanismus und Vitalismus und würdigt Rignanos hypothetische Lebensenergie bedingt als beschreibenden Vereinheitlichungsversuch. Empirische Verträglichkeit und wissenschaftlicher Ertrag bleiben Maßstäbe. Daraus darf keine bereits fertige Theorie offener Systeme herausgelesen werden. Der Befund stammt bislang aus fehlerhafter Repository-OCR, nicht aus bildgeprüften Einzelblättern. Er ist ein genauer Ausgangspunkt für den Entwicklungsvergleich, aber noch kein sicherer Beleg für einzelne wörtliche Formulierungen. [Q22, S. 265–274, besonders 273–274]
+
+B23. 1929 fragt Bertalanffy, welche Veränderungen vorhandene Evolutionserklärungen tatsächlich erklären und wo neue Anlagen oder höhere Organisation zusätzliche Probleme aufwerfen. Die Unterscheidung von Mikro- und Makroevolution dient der Eingrenzung dieser Frage; sie bedeutet keine Verwerfung evolutionärer Abstammung. Gerichtete und mnemonische Ansätze werden erörtert, die weiterführenden Überlegungen am Schluss ausdrücklich als spekulativ markiert. Das ist eine historische Hypothesenlage, keine vorweggenommene heutige Entwicklungsbiologie. Auch hier wurden bisher nur bestimmte, paginierte OCR-Strecken des Originalaufsatzes geprüft. [Q23, S. 178–182]
+
+Organisation und offenes System 1932
+
+B20. 1932 ist die organismische Biologie ausdrücklich ein Forschungsprogramm. Bertalanffy unterscheidet die Untersuchung einzelner Reaktionen von der Erklärung ihrer Koordination. Auf S. 193 beschreibt er den Organismus bereits als offenes System: Arbeitsfähigkeit setzt Stoff- und Energiestrom sowie Abstand vom chemischen Ruhegleichgewicht voraus. Der stationäre Zustand ist dabei eine begrenzte Abstraktion; Entwicklung verlangt eine quasistationäre Betrachtung. Organisation bedeutet keine Strukturlosigkeit. An Zelltheorie, Heidenhain und Woodger prüft er Stufenbau und übergreifende Prozesshierarchien. Morphologische Grenzen und funktionale Beziehungen müssen nicht zusammenfallen. Die naturwissenschaftliche Gesetzesaufgabe bleibt von metaphysischer Auslegung unterscheidbar. [Q20, S. 190–205, 240–283]
+
+Die englische Neubearbeitung 1933
+
+B21. Die englische Darstellung von 1933 ersetzt die deutsche Fassung von 1928 nicht unverändert. Woodger übersetzte und bearbeitete sie; Vorwort und S. 130 weisen Kritik, Ergänzungen und Mitarbeit an der Hierarchiedarstellung aus. Inhaltlich wendet Bertalanffy sich gegen eine gemeinsame Maschinenprämisse von Mechanismus und Vitalismus. Nichtadditivität allein beweist jedoch keine prinzipielle Unreduzierbarkeit: Auch physikalische Gestalten sind relational. Ein biologisches Unbestimmtheitsprinzip wird als Hypothese diskutiert; das Forschungsprogramm soll nicht vollständig von ihrer Bewährung abhängen. Im Entwicklungsargument zählen gegenwärtige Organisation und Geschichte, kein kausal wirksames zukünftiges Ziel. Erhaltungs- und Organisationsprinzipien bleiben prüfbare Ausgangspunkte. Die Kulturhoffnung am Ende kennzeichnet er als persönliche Auffassung. [Q21, Vorwort; S. 46–66, 129–138, 177–190]
+
+Biologische Fallfelder und Methoden 1952
+
+B62. Problems of Life (1952) prüft das organismische Programm an verschiedenen biologischen Feldern. An Mendels Arbeit erläutert Bertalanffy, wie begriffliche Abstraktion und gezielt geplante Experimente zusammenwirken. In der Genetik begrenzen Polygenie, Pleiotropie und Positionseffekte die Vorstellung unabhängig wirkender Anlagen. Mutation, Selektion und Drift werden nicht verworfen, aber nicht als bereits vollständige Erklärung aller Organisationsformen akzeptiert. Beschreibende, typologische und vergleichende Verfahren bleiben neben mathematischen Modellen legitim. Bei Formbildung und biologischer Geschichtlichkeit benennt er ungelöste Probleme; poetisch-metaphysische Deutung trennt er von naturwissenschaftlicher Erklärung. Die ausdrücklich markierten englischen Zusätze verhindern eine Gleichsetzung dieser Ausgabe mit dem deutschen Text von 1949. [Q62, S. 31, 53, 69–114, 147–175]
+
+Evolution in der neueren Werkrekonstruktion
+
+A05. Manfred Dracks werknahe Rekonstruktion zeigt: Bertalanffy fragte, wie Teile und Prozesse einen sich erhaltenden Organismus bilden. Seine organismische Biologie sollte die Analyse einzelner Vorgänge durch eine Untersuchung ihrer Organisation ergänzen. Er akzeptierte evolutionäre Abstammung, bestritt aber, dass jeder Organisationsaspekt bereits durch einen allgemeinen Hinweis auf Mutation und Selektion erklärt sei. Entwicklungsmöglichkeiten, koordinierte Veränderungen und Grenzen der Variation interessierten ihn besonders. Auch Homologie untersuchte er begriffsgeschichtlich und dynamisch: Vergleichbare Strukturen sollten über organisierende Beziehungen verstanden werden. Drack sieht Anschlüsse an spätere Entwicklungsbiologie. Das begründet keine rückwirkende Gleichsetzung mit heutigen Theorien; Bertalanffys Vorstellungen von Höherentwicklung und inneren Formgesetzen bleiben historisch prüfungsbedürftig. [Q9]
+
+3 Offene Systeme und allgemeine Systemlehre
+
+Biologische Popularisierung 1944
+
+B24. Die beiden populärwissenschaftlichen Artikel von September 1944 zeigen, wie Bertalanffy seine biologische Position einem anderen Publikum darstellte. Er grenzt Mechanismus und Vitalismus ab und erklärt organismische Ordnung, Fließgleichgewicht, Wachstum und Äquifinalität. Am Schluss führt der Weg zu vergleichbaren Strukturen auf biologischen, psychologischen und kulturellen Ebenen. Autorenzeile, Ich-Form und Fortsetzungsverweis sind im Zeitungsdruck sichtbar. Die Veröffentlichung in der Warschauer Zeitung im deutsch besetzten Polen ist ein historischer Publikationsbefund. In diesen beiden Artikeln wurde keine ausdrückliche NS-Bekenntnispassage festgestellt; die benachbarte Propaganda ist nicht sein Text. Weder Auftragsverhältnis noch Honorierung oder redaktionelle Entstehung sind erschlossen. [Q24, beide Teile, jeweils S. 4]
+
+Begriffe und formale Methoden 1950
+
+A06. Im Outline von 1950 ist Fließgleichgewicht dynamische Erhaltung trotz Stoffersatzes. Äquifinalität bezeichnet unter geeigneten Bedingungen denselben stationären Zustand bei verschiedenen Ausgangspunkten. Verhaltenswirksame Beziehungen werden unter vereinfachenden Voraussetzungen durch gekoppelte Differentialgleichungen modelliert. Summativität ist ein Grenzfall fehlender Wechselwirkung; abnehmende Kopplung bedeutet Mechanisierung mit verminderter Regulierbarkeit. Zentralisierung und Hierarchie werden aus Beziehungen beziehungsweise der Systemstruktur von Komponenten erklärt. Allometrie verknüpft proportionale relative Wachstumsraten mit Verteilung; Konkurrenzmodelle zeigen, dass Ganzheit Konflikt einschließen kann. Finalität wird bei erreichbarem stationärem Zustand aus gegenwärtigen Kausalbeziehungen hergeleitet, nicht aus einer wirkenden Zukunft. Formale Entsprechungen sind keine Gleichheit sämtlicher Ursachen. Weder wird jedes offene System stabil noch der zweite Hauptsatz aufgehoben. Voraussetzungen und Randbedingungen bleiben entscheidend. [Q3, S. 134–165]
+
+Das spätere Selbstverständnis des Programms
+
+A10. In seiner Rückschau von 1972 unterscheidet Bertalanffy Wissenschaft, Technik und Philosophie der Systeme. Unterschiedliche Ansätze sollen bestimmte Aspekte erschließen; verbale Modelle können Probleme sichtbar machen, bevor eine Formalisierung gelingt. Allgemeine Aussagen erklären einen Einzelfall nur insoweit, wie dessen besondere Bedingungen berücksichtigt werden. Für bestimmte Fälle erkennt er Übersetzungsmöglichkeiten zwischen dynamischen und kybernetischen Beschreibungen an. Seine Rückschau nennt außerdem Vorläufer und Mitwirkende; die Institutionalisierung war ein Gemeinschaftsprozess mit unter anderem Boulding, Rapoport und Gerard. Als Selbstbericht ist der Text für seine Absichten wichtig, aber keine unabhängige Bestätigung sämtlicher Prioritätsansprüche. [Q7, S. 407-424]
+
+4 Empirische Methoden und konkrete Forschungsfälle
+
+Das Bilanzmodell und die Versuchsbasis 1938
+
+B52. 1938 präzisiert Bertalanffy, anknüpfend an Pütter und seine Untersuchung von 1934, ein quantitatives Bilanzmodell tierischen Wachstums. Unter Annahmen über oberflächenabhängigen Aufbau, massenabhängigen Abbau und annähernd gleichbleibende Körperform leitet er begrenztes Längen- und Gewichtswachstum her. Eigene Messreihen an Lebistes reticulatus ergänzen die Neuberechnung publizierter Mäuse-, Ratten- und Menschendaten. Entwicklungsbedingte Stoffwechselwechsel erfordern getrennte Wachstumszyklen. Der physiologische Anspruch liegt darin, berechnete Parameter mit unabhängig bestimmbaren Stoffwechselgrößen zu verbinden. Zugleich beschreibt das Modell weder sämtliche Einzelprozesse noch Formbildung und Differenzierung; höhere grüne Pflanzen bleiben ausgeschlossen. Auch die Gleichsetzung des Hemmungsparameters mit Proteinabbau gilt ausdrücklich nicht allgemein. Gute Kurvenanpassung und physiologische Deutung müssen deshalb getrennt beurteilt werden. [Q52, S. 181–195, 196–211]
+
+Wachstum und enttäuschte Erwartungen
+
+A07. Der Übersichtsaufsatz von 1957 verbindet Körpergröße, Stoffwechsel und Wachstum. Bertalanffy verwendet vereinfachte Beziehungen zwischen aufbauenden und abbauenden Prozessen, um Größenverläufe zu erklären. Besonders aussagekräftig ist ein negatives Ergebnis: Eine in Ottawa erwartete einfache Beziehung zwischen Gewebsatmung und größenabhängigem Gesamtstoffwechsel bestätigte sich nicht. Er nennt die Erklärung unbefriedigend und behandelt den Stoffwechseltyp vorerst als empirischen Ausgangsbefund. Das zeigt eine konkrete Bereitschaft, eine enttäuschte Erwartung festzuhalten. Es belegt weder allgemeine persönliche Bescheidenheit noch die Gültigkeit sämtlicher anderer Modellannahmen. Der Text verbindet theoretischen Anspruch mit tatsächlichen Beobachtungsproblemen. [Q4, S. 217-229, besonders 223]
+
+Bedingte Idealtypen und unabhängige Prüfung
+
+A08. 1964 behandelt Bertalanffy Stoffwechsel- und Wachstumstypen ausdrücklich als bedingte Idealtypen. Er nimmt Hemmingsens Kritik an der geringen Zahl untersuchter Beispiele an und fordert breitere, aufeinander abgestimmte Messungen. Das Ergebnis könne sein Modell bestätigen, verändern oder durch ein besseres ersetzen. Zugleich warnt er davor, bloß durch zusätzliche freie Parameter schön passende Kurven zu erzeugen. Erklärungswert verlangt unabhängig prüfbare Größen und weitere Tests. Dies ist eine Präzisierung bei fortbestehendem Forschungsprogramm, kein dokumentiertes Aufgeben der Wachstumstheorie. Seine Aussagen eignen sich als Maßstab auch für die kritischere Lektüre seiner allgemeineren Ansprüche. [Q5, S. 22-31]
+
+Experimentelle Gemeinschaftsarbeit
+
+A09. 1957 publizierte Bertalanffy mit Marianna Masin, Francis Masin und Leo Kaplan zur gynäkologischen Krebsdiagnostik durch Akridinorange-Fluoreszenz. Die Arbeit berichtet 403 Fälle, darunter 52 mit bösartigen Erkrankungen, und vergleicht die Präparate mit dem Papanicolaou-Verfahren. Zeitaufwand und mikroskopische Unterscheidbarkeit werden diskutiert. Bei der erhofften besonders frühen Erkennung bleiben die Autoren vorsichtig und verlangen längere Folgeuntersuchungen. Die Quelle belegt konkrete Labor- und Anwendungsarbeit sowie Mitautorschaft. Sie erlaubt weder eine Erzählung vom alleinigen Erfinder noch eine Aussage über heutige diagnostische Überlegenheit. [Q6, S. 248-251]
+
+5 Psychologie Erkenntnis und öffentliche Werte
+
+Aktivität Symbolbildung und kulturelle Bindungen
+
+B26. In den 1968 gedruckten Clark-Vorträgen verbindet Bertalanffy symbolische Tätigkeit mit dem spontan aktiven Organismus. Symbole repräsentieren, werden tradiert und beruhen auf Bedeutungssetzung jenseits biologisch erzwungener Verknüpfung. Dadurch entstehen Planung und Kultur, aber auch symbolische Mächte über Menschen. Offene Systeme liefern einen naturwissenschaftlichen Rahmen für Aktivität; ungelöste Entwicklungs- und thermodynamische Probleme werden benannt. Psychophysisch neutrale Modelle sollen gemeinsame Beschreibungen ermöglichen, ohne letzte Wirklichkeit zu erklären. Der erklärte Humanisierungsanspruch bleibt spannungsreich: S. 7 enthält eine abwertende Fürsorgepolemik; S. 65 beschreibt er die technologische Zivilisation als Menschen aller Hautfarben, rassischen Zuordnungen und Religionen zugänglich. Beides ist belegt. Daraus folgt keine einheitliche Motivdiagnose. [Q26, S. 7, 15–29, 40–57, 65–69]
+
+Perspektivismus Sprache und gewürdigte Mitarbeit
+
+A11. General System Theory bündelt Texte verschiedener Entstehungszeiten. Bertalanffys Perspektivismus verbindet biologische Wahrnehmungsbedingungen mit kultureller Auswahl und Begriffsbildung. Kultur verändert dabei nicht beliebig die biologischen Wahrnehmungsmöglichkeiten. Mathematische Beziehungen, Instrumente und übereinstimmende Messverfahren begründen einen begrenzten Objektivitätsanspruch; keine Perspektive erschöpft die Wirklichkeit. Cusanus bildet einen philosophischen Bezugspunkt, keine experimentell bewiesene Schlussfolgerung. Bertalanffy verteidigt notwendige Analyse ebenso wie die Untersuchung von Organisation. Seine Sprache verbindet Vorläufigkeitsvorbehalte mit Polemik und deutlichen Prioritätsansprüchen. Kreative Individualität und antitotalitäre Selbstpositionierung stehen neben eurozentrischen Kulturhierarchien. Maria dankt er für Hilfe und Kritik, Elizabeth Grundau für Manuskript-, Bibliografie-, Bibliotheks- und Übersetzungsarbeit. [Q8, Vorwort; S. 188–204, 222–250]
+
+6 Beziehungen Institutionen und Mitwirkende
+
+Huxley und die Grenzen eines anerkennenden Briefs
+
+B35. Huxleys Brief vom 30. Oktober 1949 dokumentiert persönliche Wertschätzung und Interesse an fachübergreifendem Denken sowie der Cusanusarbeit. Sein Lob darf nicht überdehnt werden: Er sagt ausdrücklich, das zugesandte Buch wegen eigener Schreibarbeit bisher nur angesehen zu haben. Das Zeugnis belegt einen Kontakt und geteilte Themen, keine ausgearbeitete Rezension, dauernde Übereinstimmung oder Häufigkeit späterer Begegnungen. Der Brief ist in einer wissenschaftlichen Auswahl vollständig gelesen, nicht am Originalautograph geprüft. [Q35, S. 407]
+
+Gemeinsame Veröffentlichung mit Felix
+
+B63. Die offiziellen Verlagsmetadaten einer gemeinsamen Veröffentlichung von 1960 führen Ludwig von Bertalanffy zuerst und Felix D. Bertalanffy zweitens. Ludwig wird der Menninger Foundation in Topeka, Felix dem anatomischen Institut der University of Manitoba in Winnipeg zugeordnet. Das belegt eine gemeinsame Publikation bei verschiedenen institutionellen Zuordnungen. Der gesperrte Artikeltext wurde nicht gelesen. Aufgabenverteilung, ein gemeinsamer Laborarbeitsplatz oder die Qualität ihrer persönlichen Beziehung lassen sich aus diesen Angaben nicht ableiten. [Q63]
+
+Hayek und Unterschiede des Ganzheitsbegriffs
+
+B43. O’Shea erschließt Kontakte mit Hayek anhand datierter Briefe von 1947 und 1950. Im übersetzten Auszug vom 22. Juni 1950 beschreibt Bertalanffy Hayeks Position als radikalere Ganzheitssicht als die Gestalttheorie. Der Historiker deutet dies als Abstand zu stärker metaphysischem Holismus. Diese Interpretation bleibt vom erhaltenen Wortlaut unterscheidbar. Für die Äußerung von 1947 fehlt nach O’Shea der vorausgehende Brief; Zustimmung oder Kritik Hayeks lässt sich deshalb nicht glatt rekonstruieren. Die gemeinsame Verwendung von Ganzheitsbegriffen beweist weder identische Philosophie noch persönliche politische Übereinstimmung. [Q43, S. 488, Anm. 102–104]
+
+Die Gründungsgeschichte als gemeinsames Unternehmen
+
+B44. Boulding erinnert 1987 an ein Mittagessen mit Bertalanffy, Rapoport und Gerard am CASBS. Er datiert es nur ungefähr auf September oder Anfang Oktober 1954 und nennt selbst den fehlenden genauen Nachweis. Auf die informelle Verständigung seien Aufruf, Versammlung und Jahrbuch gefolgt. Sein eigener Weg über fachübergreifende Seminare und Wachstumsfragen macht die wechselseitige Konvergenz sichtbar. Es ist eine Jahrzehnte spätere Teilnehmererinnerung, kein Wortprotokoll. Seine Ortsangabe Berkeley für die AAAS-Tagung bleibt gegenüber anderslautenden Angaben ausdrücklich prüfbedürftig. [Q44, Nachdruck S. 32–34]
+
+B42. O’Neil rekonstruiert das CASBS-Umfeld anhand eigener Stanford-Archivrecherche. Im Interview erläutert sie Bouldings Empfehlung, die Einladung Bertalanffys und die gemeinsamen Seminare. Ihre pointierte Wiedergabe des Empfehlungsbriefs ist eine Paraphrase, kein von uns geprüftes Briefzitat. Das Jahrbuch erscheint als Kommunikationsmittel zwischen bereits bestehenden Fachgebieten. Unterschiedliche Zwecke, Methoden und Voraussetzungen blieben dabei erhalten. Dieser Gegenakzent verhindert eine glatte Geschichte wissenschaftlicher Einigung, ersetzt aber nicht die noch ausstehende eigene Lektüre ihrer Akten oder des gesamten Forschungsartikels. [Q42]
+
+Die WHO Gruppe als Begegnungsraum
+
+B58. Bowlbys Interview von 1990 erinnert an die WHO-Gruppe zur psychobiologischen Entwicklung des Kindes zwischen 1953 und 1956 und nennt Bertalanffy neben Piaget, Lorenz, Mead und Erikson. Nach seiner Rückschau wurde die erhoffte gemeinsame theoretische Grundlage nicht erreicht; die Diskussionen seien dennoch fruchtbar gewesen. Der Bericht zeigt den Unterschied zwischen produktivem Austausch und tatsächlich eingelöster Einheit. Er belegt keine Anwesenheit Bertalanffys bei allen vier Treffen und keinen hier gehörten Originalton. [Q58, S. 5–6]
+
+Maria und die noch unerschlossene eigene Stimme
+
+A14. Ein Archivbericht von 2010 dokumentiert die Übernahme von Marias Tagebüchern. Sie führte seit der Ausreise 1948 über Ludwigs Tod hinaus deutschsprachige Aufzeichnungen. Gisèle Bertalanffy übergab sie dem BCSSS; Michel Saint-Germain vermittelte die Übergabe. Dieser Bestand könnte private Arbeitsteilung und alltägliche Erfahrungen besser erschließen. Hier wurden nur der Übernahmebericht, nicht die Tagebücher gelesen. Deshalb bleiben Aussagen über die Ehe jenseits nachgewiesener Mitarbeit zurückhaltend. [Q17]
+
+B38. Folio berichtet im Januar 1969, Ludwig und Maria hätten persönliche Einladungen zu Nixons Amtseinführung und zum Ball erhalten; Ludwig habe an der Zeremonie am 20. Januar teilgenommen. Das ist ein eng begrenzter Beleg öffentlicher Repräsentation und gemeinsamer Einladung. Parteimitgliedschaft, Wahlentscheidung oder Zustimmung zu Nixons gesamter Politik folgen daraus nicht. [Q38, S. 2]
+
+7 Arbeitsweise und persönliche Zeugnisse
+
+Praktischer Rat Kritik und Humor im Brief
+
+B34. Der Brief an Hans Jonas vom 1. April 1950 zeigt einen konkreten Ratgeber und Leser. Bertalanffy empfiehlt, das Carleton-Angebot einschließlich späterer Gehaltssteigerungen schriftlich zu klären. Er lobt Jonas’ Gnosisbuch, nennt Einwände und Lektürevorschläge und scherzt über Whiskey als Erfolgsbeteiligung. Seine beiläufige Beschreibung von Bleistiftnotizen an einem Sonntagmorgen im Bett ist ein situatives Selbstzeugnis, keine nachgewiesene Tagesroutine. Die englische Übersetzung verschiebt eine Einzelheit: Der deutsche Schluss lässt den Brief maschinenschriftlich abschreiben; er sagt nicht, Bertalanffy habe selbst getippt. Maria wird nicht als Schreiberin benannt. Das Editionsdatum 1. April 1950 fällt auf einen Samstag; der Brieftext nennt Sonntagmorgen. Diese Abweichung bleibt ungeklärt. [Q34, Briefanhang]
+
+Übersetzung und Überarbeitung mit Westphal
+
+B64. Wilhelm H. Westphals Vorwort zur Biophysik des Fließgleichgewichts, datiert August 1953, macht einen konkreten Entstehungsvorgang sichtbar. Das Manuskript sei ursprünglich englisch verfasst worden; wegen Bertalanffys Zeitmangels habe Westphal die deutsche Übersetzung übernommen. Bertalanffy habe bei der Durchsicht Ergänzungen eingefügt. Dieses zugeordnete Fremdzeugnis belegt Übersetzungs- und Überarbeitungsbeiträge, keine dauerhafte Tagesroutine. Eine Kollation seiner Vorlage mit der gedruckten Übersetzung liegt hier nicht vor. Der Haupttext des Buchs wurde weiterhin nicht gelesen. [Q64, Vorwort S. III]
+
+Historische Quellenarbeit mit alten Briefen
+
+B59. Bertalanffys Beschäftigung mit Postgeschichte nahm die Form eigener historischer Forschung an. Für „Venetia“ (1963) verband er die Geschichte venezianischer Handelswege mit der Untersuchung alter Briefe aus seiner Sammlung. Für Fotografien nennt er Miklos Kiss. Er verglich Stempel, Datierungen, Vermerke und Desinfektionsspuren mit Fachliteratur und Auktionskatalogen. Damit begründete er Korrekturen bisheriger Frühdatierungen, etwa für wieder verschlossene Briefe nach Desinfektion (S. 28). Zugleich benannte er Lücken: Die einschlägigen Vorschriften zur Abgabe der Schiffspost seien ihm nicht bekannt. Sein kurzer Sardinien-Aufsatz desselben Jahres erschloss Erlasse von 1818/19 zur Einführung staatlicher Ganzsachen. Die beiden Arbeiten zeigen einen Sammler, der Originalstücke als historische Quellen auswertete. Eine Verbindung dieser Praxis zu seiner Biologie belegen sie nicht. [Q59, S. 17–32; Q60, S. 25–26]
+
+B61. Eine Meldung im South African Philatelist vom September 1965 berichtet, dass Bertalanffy für den Venedigaufsatz die Goldmedaille für den besten PHJ-Beitrag des Jahrgangs 1963 erhalten habe. Sie dokumentiert zeitgenössische fachliche Anerkennung; ein genaues Verleihungsdatum wird daraus nicht abgeleitet. [Q61, S. 191]
+
+Kollegiale Erinnerung und ihre Grenzen
+
+B39. William Gray bezeichnet sich 1972 als langjährigen Freund und Protegé und erinnert an fachübergreifend anregende gemeinsame Abende. Das ist ein konkretes Nähezeugnis, zugleich ein stark lobender Nachruf. Rapoports Würdigung wird von Gray vermittelt; sie ist keine hier gehörte Tonaufnahme. Besonders wichtig für die Verwendung ist der anschließende Managementteil: Gray wählt ausdrücklich selbst aus, was Bertalanffy seiner Ansicht nach hervorgehoben hätte. Diese Rekonstruktion darf nicht als Bertalanffys wörtliche letzte Lehre oder eigenes abschließendes Programm erscheinen. [Q39, S. 403–404]
+
+A13. Joseph Royce würdigte Bertalanffy 1979 in einer später veröffentlichten Gedenkrede als fachübergreifend arbeitenden Gelehrten, dessen Interessen Natur- und Geisteswissenschaften umfassten. Für diese Recherche war der Verlagsabstract zugänglich. Er belegt Royces zusammenfassendes Urteil, keine detaillierte Beobachtung täglicher Arbeitsgewohnheiten. Die Gattung Gedenkrede und die kollegiale Nähe verlangen Quellenkritik: Anerkennung eines Partners ist wertvoll, aber anders zu gewichten als unabhängige Untersuchung. [Q18]
+
+8 Gegenstimmen Zugeständnisse und datierte Veränderungen
+
+Hempel über Definitionen und empirischen Gehalt
+
+B28. Hempels Originalkritik von 1951 ist differenzierter als das Bild eines dogmatischen Reduktionisten. Er verlangt genaue Systembegriffe und empirische Anwendungsbedingungen: Mathematische Isomorphie allein liefert keine neue Vorhersage oder Erklärung. Gleichzeitig würdigt er Wachstumsforschung, offene Thermodynamik und heuristischen Nutzen. Weder vollständige biologische Reduktion noch endgültige Autonomie gelten ihm als entschieden. Hempel empfiehlt Physikalismus als Forschungsmaxime; ein Bild des Menschen als bloßer Automat folgt für ihn daraus nicht; vorschnelle Reduktion könne unreife Forschungsfelder sogar behindern. Die Kontroverse betrifft somit die Reichweite und Begründung des allgemeinen Programms, nicht eine pauschale Ablehnung seiner biologischen Arbeiten. [Q28, S. 313–322]
+
+Jonas über stationären Zustand und biologische Form
+
+B29. Jonas unterscheidet 1951 mathematische Form, reale Dynamik und biologische Organisation. Bevölkerungsabnahme und radioaktiver Zerfall können gleichartige Formeln haben, ohne derselbe Vorgang zu sein. Besonders präzise ist sein Einwand gegen eine weitreichende Äquifinalität: Das quantitative Gleichgewicht von Zufluss und Abfluss erklärt noch keine morphologische Wiederherstellung. Ein Brunnen löst nicht Drieschs embryologische Regenerationsfrage. Ohne zusätzliche Annahmen über Form und Kräfte entscheiden die Gleichungen auch nicht zwischen Mechanismus und Teleologie. Er will seine Kritik ausdrücklich nicht als Parteinahme für den Vitalismus verstanden wissen und erkennt Quantifizierung als methodischen Fortschritt an. Die persönliche Beziehung steht einem fachlich deutlichen Widerspruch nicht entgegen. [Q29, S. 328–335]
+
+Bertalanffys unmittelbare Antwort
+
+B30. Bertalanffys unmittelbare Schlussantwort von 1951 verbindet Verteidigung mit Zugeständnissen. Eine vollständig allgemeine Systemdefinition fehlt; er hält vorläufiges Lernen an Beispielen dennoch für legitim. Modelle brauchen wie andere hypothetisch-deduktive Theorien empirische Zusatzbedingungen. Gegen Jonas wird der Ton scharf, doch auf S. 342 erkennt er ausdrücklich an, dass seine damalige Äquifinalitätsformulierung quantitative und nicht eigentlich morphogenetische Aspekte erfasst. Bei der Reduktionsfrage beschreibt er Übereinstimmung mit Hempel: Forschung soll entscheiden; Analyse und vorläufig eigenständige Gesetze höherer Ebenen haben beide Aufgaben. Ein besseres gesellschaftliches Leben garantiert der Ganzheitsbegriff auch nach dieser Antwort nicht. Das ist ein datiertes Reichweitenzugeständnis, keine vollständige Aufgabe seines Programms. [Q30, S. 336–345]
+
+Ein ausdrücklich begrenzter Terminologiewechsel
+
+B32. Eine andere Art von Änderung ist 1966 direkt dokumentiert. In Anmerkung 7 von Mind and Body Re-Examined ersetzt Bertalanffy seine Bezeichnung introspektiv durch phänomenologisch. Er erläutert die ursprüngliche Wortwahl mit dem medizinischen Publikum und den verschiedenen philosophischen Bedeutungen. Das Argument soll ausdrücklich bestehen bleiben. Deshalb ist hier ein Terminologiewechsel belegt, keine grundlegende Konversion. Anmerkung 3 verteidigt seine philosophische Ausbildung gegen Lachs und erkennt zugleich Reiningers Priorität an. Diese konkrete Reaktion ersetzt weder die ungelesene Originalkritik von Lachs noch die Lektüre des eingeschränkten Haupttextes seiner Antwort. [Q32, Anmerkungen 3 und 7]
+
+Spätere fachliche und historische Gegenperspektiven
+
+B33. Lane trennt 1981 konkrete empirische Systemtheorien von einem allgemeinen Systemprogramm. Seine Kritik richtet sich gegen den Schluss von gleicher mathematischer Form auf gleiche Wirklichkeitsstruktur und gegen vorab behauptete Isomorphien. Größere begriffliche Genauigkeit erzeuge allein noch keine empirische Theorie. Zugleich erkennt er einen Nutzen als Klassifikations- und Theorieentwicklungsansatz an und warnt vor der pauschalen Übertragung dieser Kritik auf spezielle Modelle. Seine Darstellung ist eine eigenständige Gegenstimme. Die dortige vereinfachte Thermodynamik wird hier nicht als naturwissenschaftlicher Beleg übernommen. [Q33, S. 205–207]
+
+A15. Thomas Diesner rekonstruiert drei zentrale Einwände: Formale Übereinstimmung allein erklärt keinen empirischen Gegenstand; ein Einheitsanspruch muss die Besonderheiten verschiedener Fächer erhalten; die Abgrenzung realer und begrifflicher Systeme bleibt problematisch. Hempel und Jonas verlangten bereits 1951 eine klarere Verbindung von Formalismus und Erfahrung. Diesner hebt demgegenüber den möglichen heuristischen Nutzen hervor: Eine gemeinsame Sprache kann neue Fragen und Zusammenarbeit ermöglichen, auch ohne eine abgeschlossene Universaltheorie zu liefern. Diese Deutung ist von Bertalanffys stärkeren eigenen Ansprüchen zu unterscheiden. [Q11, S. 153-168]
+
+A16. Guberman kritisiert unklare Grundbegriffe und überhöhte theoretische Versprechen. Er behandelt das Verhältnis von Ganzem und Teilen stärker als Problem angemessener Beschreibung. Seine polemische Darstellung ist eine Gegenposition, kein endgültiges Urteil über alle biologischen Arbeiten Bertalanffys. Ihr sinnvoller Prüfimpuls lautet: Erklärt ein Begriff tatsächlich mehr oder benennt er nur ein ungelöstes Problem neu? Die Antwort muss am jeweiligen Beispiel erfolgen. [Q12, S. 1-3, 6-10]
+
+B45. O’Neils historische Darstellung von 2024 betont, dass sich mit der Emigration auch das wissenschaftliche Umfeld und der Maschinenbegriff änderten. Ein Uhrwerk und ein lernendes, rückgekoppeltes technisches System sind unterschiedliche Vergleichsobjekte. Ihre Zuspitzung auf das Zusammenwachsen von System und Maschine ist eine Deutung, die mit Bertalanffys eigenen Unterscheidungen verglichen werden muss. Sie beruht auf eigener Nachlassarbeit und weiterer Forschung, darunter Pouvreau, Hofer und Davidson. Mehrere Texte derselben Forscherin sind keine zusätzlichen voneinander unabhängigen Autoritäten. [Q45]
+
+9 Zusammenführung und offene Vertiefung
+
+Was die datierten Vergleiche leisten
+
+Der tragfähigste Zugang besteht darin, konkrete Veränderungen einzeln zu benennen. Eine terminologische Präzisierung, ein eingegrenzter Geltungsanspruch, ein geändertes Messprogramm und eine politische Selbstdarstellung sind unterschiedliche Vorgänge. Sie sollten nicht zu einer einzigen Erzählung von ungebrochenem Fortschritt oder nachträglicher Läuterung zusammengezogen werden.
+
+- 1927 und 1932: Der Vergleich zeigt unterschiedliche Erklärungsmittel und einen deutlicher formulierten dynamischen Forschungsansatz. Ohne vollständigen Fassungsvergleich ist daraus kein schlagartiger weltanschaulicher Bruch abzuleiten. [Q22; Q20]
+
+- 1950 und 1951: Das allgemeine Äquifinalitätsargument wird in der Antwort an Jonas hinsichtlich seiner damaligen quantitativen Reichweite ausdrücklich begrenzt. [Q3; Q30]
+
+- 1938, 1957 und 1964: Das frühe Modell benennt bereits Grenzen. Später treten enttäuschte Erklärungserwartungen und ausdrücklich bedingte Idealtypen hinzu. Die gesicherten Stellen tragen eine differenzierte Fortentwicklung, keine plötzliche Bekehrung zur Vorläufigkeit. [Q52; Q4; Q5]
+
+- 1966: Ein erklärter Bezeichnungswechsel darf als solcher geführt werden. Der Autor behauptet gerade keine entsprechende Änderung des zugrunde liegenden Arguments. [Q32]
+
+Wie weit persönliche Aussagen tragen
+
+Für eine spätere personbezogene Wissensarbeit sind die datierten Absätze belastbarer als allgemeine Charakteretiketten. Die Zuordnung muss erhalten bleiben: Wer sagt etwas, wann, in welcher Situation und mit welcher möglichen Nähe? Eine Publikation belegt zunächst eine öffentlich vertretene Position. Ein privater Brief kann einen anderen Ton zeigen, ohne den öffentlichen Text außer Kraft zu setzen. Ein Freundesnachruf und eine Verwaltungsakte beantworten verschiedene Fragen.
+
+Dieses Dossier bietet keine ausgemalte Innenwelt. Wo keine tragfähige Überlieferung vorliegt, bleiben Überzeugungen, Gefühle und Absichten offen. Ebenso fehlt eine Grundlage für feste Alltagsskripte oder für Antworten auf beliebige heutige Fragen in Bertalanffys Namen. Gerade die erkennbaren Spannungen sollten bei weiterer Nutzung erhalten bleiben.
+
+Wesentliche offene Quellen
+
+- Weitere Haupttexte bleiben ungelesen: Theoretische Biologie II (1942; zweite Auflage 1951) und Biophysik des Fließgleichgewichts (1953). Beim zweiten Werk sind bisher nur Vorstücke und bibliografischer Apparat erschlossen. [Q10; Q64]
+
+- Frühe Werkentwicklung: Die deutsche Erstfassung von 1928, Das Gefüge des Lebens von 1937 und der Originalaufsatz von 1930 fehlen noch. Ein lückenloser Editionsvergleich wäre deshalb verfrüht. [Q48–Q50]
+
+- Politik und institutionelle Konflikte: Der Aufsatz von 1941, die Personal- und Entnazifizierungsakten sowie die beidseitige Ottawa-Korrespondenz sind noch unmittelbar zu lesen. Kataloge weisen konkrete Bestände nach, liefern aber nicht deren vollständigen Inhalt. [Q53–Q55]
+
+- Späte Psychologie und Kontroverse: Für Robots, Men and Minds fehlt eine zuverlässig bildgeprüfte Ausgabe. Die Originalkritik von Lachs und der Haupttext der Antwort von 1966 bleiben eingeschränkt. Aus der ungesicherten OCR werden keine politischen Detailaussagen übernommen. [Q27; Q31; Q32]
+
+- Maria und andere Mitwirkende: Tagebücher, autobiografische Fassungen, vollständige Vorworte, die Erinnerungen von 1973 und die größere Huxley-Korrespondenz sind noch nicht erschlossen. Katalogisiertes Audio wurde nicht gehört. Die öffentlich auffindbare Festschriftdatei enthält die gesuchten Beiträge nicht. [Q40; Q56; Q57]
+
+- Weitere institutionelle Anker: Der MBL-Originaltext von 1938 und ein gültiger WHO-Bericht bleiben offene Zugänge. Metadaten oder Suchauszüge dürfen keine Anwesenheits- oder Tätigkeitsbelege ersetzen. [Q46; Q47]
+
+Für diese Lücken sind gesicherte Originalausgaben, institutionelle Reproduktionen oder dokumentierter Bibliothekszugang erforderlich. Zugriffsbeschränkungen werden als solche festgehalten. Eine nicht gelesene Quelle bleibt unabhängig davon offen, wie plausibel eine spätere Darstellung erscheint. Persönliche Religionspraxis, dauerhafte Tagesroutinen und nicht belegte Motive müssen nicht durch Vermutungen ergänzt werden.
+
+Abhängigkeit der Belege
+
+Die Archivbiografie, die neuere biografische Zusammenfassung, die Werkbibliografie und Teile der jüngeren Emigrationsforschung teilen Forschungsgrundlagen. Ihre Übereinstimmung ist nicht vierfach unabhängige Bestätigung. [Q1; Q2; Q10; Q45]
+
+Die Alberta-Dokumente stammen aus derselben Institution. O’Neils Interview und Essay stammen von derselben Forscherin. Es sind verschiedene Dokumente, aber entsprechend verbundene Perspektiven. [Q36–Q38; Q41; Q42; Q45]
+
+Bearbeitung und Übersetzung, Briefedition und Wiederabdruck erweitern den Zugang, nicht automatisch die Zahl unabhängiger Zeugen. Die jeweilige Fassung bleibt Teil des Befunds. [Q21; Q34; Q44]
+
+10 Aussagen und Quellenregister
+
+Aussagenregister
+
+Die Absatzkennung verweist auf genau einen Textblock. Angaben zu Unsicherheit und Geltungsgrenzen stehen dort und werden hier nicht inhaltlich verdoppelt.
+
+- A01: biografischer Überblick; Q2
+- A02: kollegiale historische Deutung; Q14
+- A03: archivhistorisch vermittelte Befunde und abgegrenzte Interpretation; Q1
+- A03a: bildgeprüfte Zuschreibung mit offener Wortlautautorschaft; Q19
+- B25: administrativer Originalbefund mit Gegenprüfung; Q25
+- B41: institutioneller Originalnachweis; Q41
+- B36: zeitnahes institutionelles Fremdzeugnis; Q36
+- B37: zeitgenössische Personalnachricht; Q37
+- A17: institutioneller Datennachweis; Q13
+- A04: bibliografische Werkübersicht; Q10
+- B22: vorläufiger OCR-Befund; Q22
+- B23: vorläufiger OCR-Befund; Q23
+- B20: Originalargument in gelesenen Buchabschnitten; Q20
+- B21: Originalargument einer bearbeiteten Übersetzung; Q21
+- B62: Originalbuch in ausdrücklich unterschiedener englischer Fassung; Q62
+- A05: neuere werknahe Interpretation; Q9
+- B24: bildgeprüfte Originalartikel; Q24
+- A06: Originalargument und Voraussetzungen; Q3
+- A10: programmatisches Selbstzeugnis; Q7
+- B52: Originalstudie und gezielter datierter Vergleich; Q52
+- A07: Originalbefund und begrenzte Deutung; Q4
+- A08: ausdrückliche methodische Präzisierung; Q5
+- A09: historische Originalstudie; Q6
+- B26: vollständig gelesene Druckfassung; Q26
+- A11: Originalpassagen und Textschichten; Q8
+- B35: ediertes Fremdzeugnis; Q35
+- B63: offizielle Verlagsmetadaten ohne Artikellektüre; Q63
+- B43: historische Interpretation vermittelter Briefe; Q43
+- B44: späte Teilnehmererinnerung; Q44
+- B42: heutiges Forschungsinterview; Q42
+- B58: spätes Teilnehmerinterview; Q58
+- A14: Archivbericht ohne Tagebuchlektüre; Q17
+- B38: zeitgenössische Meldung; Q38
+- B34: ediertes Selbstzeugnis und Übersetzungsvergleich; Q34
+- B64: direktes Übersetzervorwort ohne Haupttextlektüre; Q64
+- B59: Originalaufsätze über eigene historische Quellenarbeit; Q59, Q60
+- B61: zeitgenössische Auszeichnungsmeldung; Q61
+- B39: nahestehendes Erinnerungszeugnis; Q39
+- A13: kollegiales Fremdurteil nur als Abstract; Q18
+- B28: Originalkritik; Q28
+- B29: Originalkritik; Q29
+- B30: Originalerwiderung mit Zugeständnis; Q30
+- B32: Originalanmerkungen bei ungelesenem Haupttext; Q32
+- B33: spätere fachliche Gegenposition; Q33
+- A15: wissenschaftstheoretische Rekonstruktion; Q11
+- A16: zugeordnete polemische Gegenposition; Q12
+- B45: historische Interpretation; Q45
+
+Quellen und tatsächlicher Leseumfang
+
+Druckseiten und PDF-Seiten werden unterschieden. Vollständig bedeutet nur den ausdrücklich genannten Artikel, Brief oder Textteil. Nicht jede registrierte Quelle ist ein gelesener Inhaltsbeleg. Die Kennungen Q27, Q31, Q40, Q46–Q50 und Q53–Q57 enthalten insbesondere offene Zugänge und Findmittel. Der letzte Eintrag ist deshalb keine Zahl vollständig gelesener Werke.
+
+Offener Zugriff ist keine freie Nachnutzungslizenz. Nachgewiesene Anbieterkennzeichnungen werden mit ihrer Reichweite genannt; historische Fremdtexte können eigene Rechte haben. Dieses Dossier enthält eigenständige begrenzte Zusammenfassungen und keine beigegebenen Volltexte. Einträge ohne ausdrücklichen Lizenznachweis werden nicht als gemeinfrei behandelt.
+
+Q1
+
+David Pouvreau: La « tragédie dialectique du concept de totalité » : Une biographie non officielle de Ludwig von Bertalanffy. Wien 2006, ISBN 978-3-200-00840-3. 102 PDF-Seiten. Haupttext S. 11-88, Einleitungsteile und Übersicht ausgewertet; Briefe nur vermittelt. Keine Verwendung der erweiterten englischen Ausgabe 2009 als gelesene Edition.
+
+
+https://www.bcsss.org/wp-content/uploads/2011/09/pdf29.pdf
+
+Q2
+
+Michael Kaasch: Bertalanffy, Ludwig von. NDB-online, 1.10.2024. Lebenslauf, Genealogie, Biografie, Auszeichnungen und Werkverzeichnis gelesen; HTML. Neuere Gegenprüfung, teilweise dieselbe Forschungsgrundlage wie Q1.
+
+
+https://www.deutsche-biographie.de/gnd11865666X.html#dbocontent
+
+Q3
+
+Ludwig von Bertalanffy: An Outline of General System Theory. British Journal for the Philosophy of Science 1(2), 1950, 134–165. DOI 10.1093/bjps/I.2.134. Alle Abschnitte erschlossen: frühere Auswahl 1–3/8–12 plus nachgelesene Abschnitte 4–7. Kernseiten bildgeprüft; Formeln nicht vollständig repliziert. Vollständiger 33-seitiger Heftscan; keine offene Lizenz nachgewiesen.
+
+https://surplusvalue.org.au/Science_Environment/Systems%20theory%201950.pdf
+
+Q4
+
+Ludwig von Bertalanffy: Quantitative Laws in Metabolism and Growth. Quarterly Review of Biology 32(3), 1957, S. 217-231. Haupttext bis S. 229 gelesen; Literaturverzeichnis überflogen; S. 223 visuell kontrolliert. 15 PDF-Seiten, Beginn Druck-S. 217. DOI 10.1086/401873.
+
+
+https://jmahaffy.sdsu.edu/courses/f14/math636/lectures/allometric/pulse_wt_vBert_57.pdf
+
+Q5
+
+Ludwig von Bertalanffy: Basic concepts in quantitative biology of metabolism. Helgoländer wissenschaftliche Meeresuntersuchungen 9, 1964, S. 5-37. Haupttext S. 5-31 und Diskussion S. 35-37 gelesen; Literaturverzeichnis überflogen; S. 30 visuell kontrolliert. 33 PDF-Seiten. DOI 10.1007/BF01610024.
+
+
+https://hmr.biomedcentral.com/counter/pdf/10.1007/BF01610024.pdf
+
+Q6
+
+Ludwig von Bertalanffy, Marianna Masin, Francis Masin, Leo Kaplan: Detection of Gynecological Cancer. California Medicine 87(4), 1957, S. 248-251. Alle vier Originalseiten als PMC-Seitenbilder gelesen, einschließlich Diskussion und Abbildungen. PMCID PMC1512181. Kein eigener Nachtest.
+
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC1512181/
+
+Q7
+
+Ludwig von Bertalanffy: The History and Status of General Systems Theory. Academy of Management Journal 15(4), 1972, S. 407-426. Haupttext S. 407-424 gelesen; Bibliografie überflogen. 21 PDF-Seiten mit Deckblatt. Nachdruck aus Klirs Sammelband; DOI 10.5465/255139.
+
+
+https://newsyllabus.org/wp-content/uploads/2024/10/bertalanffy.pdf
+
+Q8
+
+Ludwig von Bertalanffy: General System Theory. Braziller, Copyright 1968; geprüft: zweiter Druck November 1969, Impressum nennt Erstdruck Februar 1969. Vorstücke und Haupttext 3–253 durchgehend gelesen, einschließlich Anmerkungen und Anhang; Literatur/Register nur teilweise gesichtet. Bildgeprüfte Kernstellen; keine Vollreplikation. 153 PDF-Doppelseiten; keine offene Lizenz. Mit Wiederverwendungen von Q3/Q5/Q51 und Parallelen zu Q26.
+
+https://uranos.ch/research/references/VonBertalanffy1968/Von_Bertalanffy_Ludwig_General_System_Theory_1968.pdf
+
+Q9
+
+Manfred Drack: Ludwig von Bertalanffy's Organismic View on the Theory of Evolution. Journal of Experimental Zoology B 324B, 2015, S. 77-90. HTML: Theorieabschnitte, Evolutionskritik, Homologie und Schluss ausgewertet. DOI 10.1002/jez.b.22611. Originalmaterial unter CC BY; hier eigenständig zusammengefasst, keine Übernahme fremder längerer Zitate.
+
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4657461/
+
+Q10
+
+David Pouvreau: Ludwig von Bertalanffy's complete works. Bibliografie, 25.5.2006, BCSSS, 14 PDF-Seiten. Relevante Titel, Editionen und Herausgeberschaften kontrolliert. Der Quellentitel bedeutet keinen eigenen Vollständigkeitsnachweis und keine Lektüre aller aufgeführten Texte.
+
+
+https://www.bcsss.org/wp-content/uploads/2011/09/pdf32.pdf
+
+Q11
+
+Thomas Diesner: Die Allgemeine Systemtheorie bei Ludwig von Bertalanffy. Logos 2015, ISBN 978-3-8325-4103-3. Einleitung und Druck-S. 153-168 ausgewertet, entsprechend PDF-S. 155-170. Originalmaterial CC BY-SA 4.0; hier eigenständig knapp zusammengefasst. Fremdzitate sind nicht automatisch mitlizenziert.
+
+
+https://www.logos-verlag.de/ebooks/OA/978-3-8325-4103-3.pdf
+
+
+https://creativecommons.org/licenses/by-sa/4.0/deed.de
+
+Q12
+
+Shelia Guberman: Reflections on Ludwig von Bertalanfy's General System Theory. Res-Systemica, Crete02, 2002. Zehn PDF-Seiten. Einleitung, Definitionskritik und zusammenfassende Teile S. 1-3, 6-10 gelesen; mathematische Detailkritik nicht vollständig nachgerechnet. Polemische Gegenposition.
+
+
+https://www.afscet.asso.fr/resSystemica/Crete02/Guberman.pdf
+
+Q13
+
+Leopoldina: Mitgliederverzeichnis, Ludwig von Bertalanffy. Institutioneller Nachweis der Aufnahme 1968; Eintrag geprüft. Keine biografische Volllektüre behauptet.
+
+
+https://www.leopoldina.org/mitglieder/mitgliederverzeichnis/detail/ludwig-von-bertalanffy/
+
+Q14
+
+Thaddus E. Weckowicz: Ludwig von Bertalanffy (1901-1972): A Pioneer of General Systems Theory. University of Alberta, Working Paper 89-2, Februar 1989. PDF-S. 1-5 gelesen. Spätere Fußnoten Richard Jungs verändern nicht das Erscheinungsjahr. Wohlwollende, teilweise korrekturbedürftige Kollegendarstellung.
+
+
+https://richardjung.cz/bert1.pdf
+
+Q15
+
+Hans Jonas Gesellschaft: Biografische Daten. HTML, Eintrag 1949-1950 im biografischen Zusammenhang gelesen. Institutionelle Chronologie der Beziehung; keine Originalkorrespondenz.
+
+
+https://hansjonas.de/biografischedaten/
+
+Q16
+
+BCSSS: Bertalanffy Archive, Partial Estate, Teilnachlass Ludwig von Bertalanffy 2. Bestandsübersicht und Gliederung gelesen. Nachweise von Materialarten und Recherchewegen; verzeichnete Einzelobjekte nicht dadurch eingesehen.
+
+
+https://www.bcsss.org/bertalanffy-archive-partial-estate-teilnachlass-ludwig-von-bertalanffy-2/
+
+Q17
+
+Stefan Blachfellner: Diaries of Maria von Bertalanffy saved for posterity. BCSSS, 10.12.2010. Übernahmebericht vollständig gelesen. Die darin erwähnten Tagebücher wurden nicht ausgewertet; zeitgebundene Aussagen über damals lebende Angehörige werden nicht fortgeschrieben.
+
+
+https://www.bcsss.org/2010/diaries-of-maria-von-bertalanffy-saved-for-posterity-gisele-bertalanffy-honorary-member-of-the-bcsss/
+
+Q18
+
+Joseph R. Royce: A personal portrayal of Ludwig von Bertalanffy (1901-1972). Journal of the History of the Behavioral Sciences 17(3), 1981, S. 340-342. Gelesen: Verlagsabstract und Metadaten, nicht der dreiseitige Volltext. Grundlage war eine Gedenkrede vom Mai 1979.
+
+
+https://doi.org/10.1002/1520-6696(198107)17:3%3C340::AID-JHBS2300170305%3E3.0.CO;2-K
+
+Q19
+
+Wandlungen des biologischen Denkens Ihre Bedeutung für Wissenschaft und Geistesleben. Neue Jahrbücher für Wissenschaft und Jugendbildung 10, 1934, H. 4, 339–366. Überschrift und Inhaltsverzeichnis: Nach Ludwig von Bertalanffy. Artikel-OCR vollständig, Druck 339, 351–353, 366 bildgeprüft. Oppermanns Beitrag beginnt erst anschließend. Anbieterkennzeichnung Public domain; keine eigene Rechtekettenprüfung.
+
+https://kpbc.umk.pl/dlibra/publication/271340/edition/270495
+
+Q20
+
+Ludwig von Bertalanffy: Theoretische Biologie I. Borntraeger 1932, XII und 349 S.; Gerstein/Toronto-Exemplar, 372 PDF-Seiten. Gelesen: Vorwort III–V, 80–83, 190–205 und 240–283. Bildgeprüft unter anderem 193–194, 198, 281; Druck 193 entspricht PDF 209. Keine Volllektüre. Copyright-Vermerk 1932; offene Lizenz nicht nachgewiesen.
+
+https://archive.org/details/theoretischebiol01bert
+
+Q21
+
+Ludwig von Bertalanffy: Modern Theories of Development. Oxford University Press 1933; übersetzt und bearbeitet von J. H. Woodger. Gelesen: Vorwort v–vii, 46–66, 129–138, 177–190. Bildkontrolle einschließlich 63, 130 und 186. Englische Neubearbeitung; deutsche Erstfassung 1928 ungelesen. Regulärer DLI/IA-Scan; offene Lizenz nicht nachgewiesen.
+
+https://archive.org/details/dli.ernet.476198
+
+Q22
+
+Ludwig von Bertalanffy: Das Problem des Lebens. Scientia 41, 1927, 265–274. Geprüft: Titelanfang sowie OCR 266–267 und 269–274, keine sichere Faksimilevolllektüre. AMS Historica, Universität Bologna. Anbieterbedingungen nennen CC BY-NC 4.0 für Inhalte; einzelartikelbezogene Rechtekette nicht unabhängig geprüft. Bilderzugang blieb eingeschränkt.
+
+https://hdl.handle.net/20.500.14008/80293
+
+https://historica.unibo.it/info/end-user-agreement
+
+Q23
+
+Ludwig von Bertalanffy: Der heutige Stand des Entwicklungsproblems. Scientia 46, 1929, 97–110 und 171–182. Gelesen: Anfänge beider Teile, OCR 172–173 und 178–182. Keine lückenlose Bildprüfung. Beide Teile sind ein Werk. Anbieterbedingungen wie Q22, keine unabhängige artikelbezogene Lizenzprüfung.
+
+https://hdl.handle.net/20.500.14008/80298
+
+Q24
+
+Ludwig Bertalanffy: Das Leben in der Natur. Warschauer Zeitung 6, Nr. 247, 24.9.1944, S. 4; Nr. 248, 26.9.1944, S. 4. Beide Artikel vollständig samt Faksimile, Autorzeile und Datum geprüft; übrige Ausgaben nicht vollständig gelesen. Gemeinfreiheitsangabe der Sammlung nicht als unabhängige Rechteprüfung behandelt.
+
+http://mbc.cyfrowemazowsze.pl/Content/75842/00081902_-_Warschauer-Zeitung-R-6-1944-nr-247-24-IX-_Cz-IV-8.pdf
+
+http://mbc.cyfrowemazowsze.pl/Content/75843/00081903_-_Warschauer-Zeitung-R-6-1944-nr-248-26-IX-_Cz-IV-8.pdf
+
+Q25
+
+Historische Parteiverwaltung: Karte zu Bertalanffy. NARA RG 242, A3340-MFKL-B0101, Bild 01448; Objekt 582025618, Rollen-NAID 582024170, Serie 12044361. Ganze Vorderseite und Detailfelder bildgeprüft, unabhängig gegengelesen. Öffentlicher NARA-Datensatz mit unbeschränktem Zugang; dies ist keine eigene Rechtsprüfung des historischen Originals. Kartenentstehungsdatum unbekannt.
+
+https://registry.opendata.aws/nara-nsdap/
+
+https://nara-nsdap.s3.us-east-2.amazonaws.com/A3340-MFKL/A3340-MFKL-B0101/A3340-MFKL-B0101-01448.tif
+
+Q26
+
+Ludwig von Bertalanffy: Organismic Psychology and Systems Theory. Clark University Press mit Barre Publishers 1968, xii und 76 S. Vorstücke, beide Vorträge 1–69 und Bibliografie 70–76 vollständig gelesen; zentrale Seiten bildgeprüft. Vorträge 1966, Druckfassung mit Literatur von 1967. Clark-Originalscan; Copyright, keine offene Lizenz.
+
+https://commons.clarku.edu/heinz-werner-lectures/13/
+
+Q27
+
+Ludwig von Bertalanffy: Robots, Men and Minds. Braziller 1967. Nur editionsungesicherte öffentliche OCR: Vorstücke, nahezu 3–52 sowie 87–101 und 112–115. Kein zuverlässiger Erstauflagenscan geprüft. Inhaltliche Auswertung für dieses Dossier ausgesetzt; nicht durch Q26 ersetzt. IA-Exemplare eingeschränkt.
+
+https://books.google.com/books?id=FEB9AAAAMAAJ
+
+https://www.scribd.com/document/661043209/Bertalanffy-Ludwig-von-Robots-Men-and-Minds
+
+Q28
+
+Carl G. Hempel: General System Theory and the Unity of Science. Human Biology 23(4), 1951, 313–322. Vollständig gelesen; PDF 41–50 des Originalhefts, Kernseiten bildgeprüft. Q28–Q30 sind eigenständige Beiträge in derselben digitalen Heftüberlieferung. Keine offene Lizenz nachgewiesen.
+
+https://www.jstor.org/stable/41448004
+
+https://archive.org/details/sim_human-biology_1951-12_23_4
+
+Q29
+
+Hans Jonas: Comment on General System Theory. Human Biology 23(4), 1951, 328–335. Vollständig gelesen, PDF 56–63; Seiten 328 und 333–335 bildgeprüft. Derselbe Originalheftscan wie Q28. Keine offene Lizenz nachgewiesen.
+
+https://www.jstor.org/stable/41448006
+
+https://archive.org/details/sim_human-biology_1951-12_23_4
+
+Q30
+
+Ludwig von Bertalanffy: Conclusion. Human Biology 23(4), 1951, 336–345. Vollständig gelesen, PDF 64–73; insbesondere 342–343 bildgeprüft. Derselbe Originalheftscan wie Q28. Keine offene Lizenz nachgewiesen.
+
+https://www.jstor.org/stable/41448007
+
+https://archive.org/details/sim_human-biology_1951-12_23_4
+
+Q31
+
+John Lachs: Von Bertalanffy’s New View. Dialogue 4(3), 1965, 365–370. Nur Verlagsmetadaten; Vorschau nicht lesbar, Volltext eingeschränkt. Keine Kritik aus Bertalanffys Erwiderung als Lachs-Original rekonstruiert.
+
+https://doi.org/10.1017/S0012217300035964
+
+Q32
+
+Ludwig von Bertalanffy: Mind and Body Re-Examined. Journal of Humanistic Psychology 6(2), 1966, 113–138. Im öffentlichen Verlags-HTML ausschließlich Anmerkungen 1–15 gelesen. Haupttext eingeschränkt; keine Volllektüre. Keine offene Lizenz nachgewiesen.
+
+https://journals.sagepub.com/doi/10.1177/002216786600600203
+
+Q33
+
+Jan-Erik Lane: The systems model and political science. Statsvetenskaplig tidskrift 84(4), 1981, 201–214. Gelesen 201–208 und ausgewählte Folgerungen 209–211; Kernkritik 205–207 vollständig. Offizieller Zeitschriftenscan, keine vollständige Schlussfallstudie. Online-Datum 2010 ist nicht das Erscheinungsjahr; offene Lizenz nicht festgestellt.
+
+https://journals.lub.lu.se/st/article/view/3214
+
+Q34
+
+Ludwig von Bertalanffy: Brief an Hans Jonas, 1.4.1950. Nachlass HJ-11-4-36; ediert bei Roberto Franzini Tibaldeo, Philosophy and Social Criticism 38(3), 2012, Anhang 297–300. Englische und deutsche Fassung vollständig im Verlags-HTML gelesen; kein Autograph. Rechte am Brief nicht unabhängig geklärt.
+
+https://journals.sagepub.com/doi/10.1177/0191453710389451
+
+Q35
+
+Aldous Huxley: Brief an Bertalanffy, 30.10.1949. Selected Letters, hg. James Sexton, Ivan R. Dee 2007, S. 407, PDF 421. Ganzer Brief einschließlich Seitenbild gelesen; kein Autograph, keine Volllektüre der Edition. Keine offene Lizenz nachgewiesen.
+
+https://huxleyarchive.org/Non-fiction/BOOKS/Selected%20Letters%20of%20Aldous%20Huxley.pdf
+
+Q36
+
+University of Alberta: Ludwig von Bertalanffy 1901–1972. Folio 8(53), 22.6.1972, S. 1. Nachruf vollständig als OCR und Faksimile gelesen. Zeitnahes institutionelles Zeugnis, keine unabhängige Gesamtbiografie; offene Lizenz nicht ausgewiesen.
+
+https://archive.org/details/FOL_1972062201
+
+Q37
+
+University of Alberta: Green Appointed University Professor. Folio 6(1), 3.7.1969, S. 1. Personalnachricht vollständig als OCR und Seitenbild gelesen; übrige Ausgabe nicht vollständig. Keine offene Lizenz nachgewiesen.
+
+https://archive.org/details/FOL_1969070301
+
+Q38
+
+University of Alberta: People, Meldung zu Bertalanffy. Folio, 23.1.1969, S. 2. Ganzer Meldungstext und Seitenbild geprüft. Nachricht über Einladung und Teilnahme, kein politisches Selbstzeugnis. Keine offene Lizenz nachgewiesen.
+
+https://archive.org/details/FOL_1969012301
+
+Q39
+
+William Gray: In Memoriam. Academy of Management Journal 15(4), 1972, 403–404. DOI 10.5465/amj.1972.4297531. Beide Seiten als öffentlicher Plattformtext gelesen; Verlagszugang eingeschränkt, keine Bildprüfung. Freundesnachruf, nicht Gesprächsprotokoll. Keine offene Lizenz nachgewiesen.
+
+https://de.scribd.com/document/299819877/En-Memoria-de-Bertalanffy-Gray-1972
+
+Q40
+
+Perspectives on General System Theory, hg. Edgar Taschdjian, Braziller 1975. Vorworte Maria von Bertalanffy, S. 7–8, und Ervin Laszlo, ab S. 9. Nur editionsunsichere spanische OCR-Fragmente und ein englischer ISSS-Teilauszug gelesen; vollständige Vorworte fehlen. Kein tragender Inhaltsbeleg.
+
+https://archive.org/details/perspectivesonge00bert
+
+https://web3.isss.org/primer2/appendix.htm
+
+Q41
+
+University of Alberta Calendar 1962–1963. Gelesen und bildgeprüft: Druck 136, 151, 160, 584 und 586, entsprechend PDF 140, 155, 164, 588 und 590. Legende und Personaleintrag gemeinsam ausgewertet; keine Volllektüre aller 738 PDF-Seiten. Keine offene Lizenz nachgewiesen.
+
+https://archive.org/details/uofa-calendar-1962-63
+
+Q42
+
+Libby O’Neil im redigierten Interview mit Hannah Proctor: Interview Libby O’Neil ECR Prize winner 2024. History of the Human Sciences, 21.8.2024. Vollständiges HTML gelesen. Zugehöriger Forschungsartikel und historische Akten nicht selbst gelesen; keine offene Lizenz festgestellt.
+
+https://www.histhum.com/interview-libby-oneil-ecr-prize-winner-2024/
+
+Q43
+
+Jerry O’Shea: Hayek’s Spiritual Science. Modern Intellectual History 19(2), 2022, 473–498; online 7.12.2020. DOI 10.1017/S1479244320000517. Abstract, Argumentumgebung und S. 488, Anm. 102–104 gelesen. Artikel CC BY 4.0; fremde Briefauszüge nicht automatisch mitlizenziert. Keine Autographlektüre.
+
+https://www.cambridge.org/core/journals/modern-intellectual-history/article/hayeks-spiritual-science/345B01A24F377DB697A3CF48CB668521
+
+https://creativecommons.org/licenses/by/4.0/
+
+Q44
+
+Kenneth E. Boulding: Systems Some Origins. Systems Research 4, 1987, 283–288. Gelesen im autorisierten Nachdruck General Systems XXXI, Jahrgang 1988, Copyright 1989, S. 32–34; S. 33 und Impressum bildgeprüft. Erste Seite 31 nicht als gelesen geführt. Keine offene Lizenz nachgewiesen.
+
+https://www.coexploration.org/systems/journals/General_Systems_Volume_XXXI.pdf
+
+Q45
+
+Elizabeth O’Neil: Cybernetic Emigres Wartime Machines and the Problem of Life between Vienna and the United States. Botstiber Foundation, 11.11.2024. Webtext und Anmerkungen vollständig gelesen. Eigene historische Forschung plus weitere Literatur; dieselbe Autorin wie Q42. Keine offene Lizenz festgestellt.
+
+https://botstiber.org/cybernetic-emigres-wartime-machines-and-the-problem-of-life-between-vienna-and-the-united-states/
+
+Q46
+
+Marine Biological Laboratory: The Collecting Net 13, 1938. Nur institutionelle und IA-Metadaten geprüft. Der begonnene Abruf ergab keinen gesicherten Volltext; insbesondere S. 182 nicht gelesen. Kein Inhaltsbeleg.
+
+https://www.biodiversitylibrary.org/item/55303
+
+https://archive.org/details/collectingnet1338mari
+
+Q47
+
+WHO: Dokumentkennung EB23/41. Nur Suchhinweis, kein gesicherter Berichtstext oder Teilnehmerverzeichnis. Die nominelle PDF-Route lieferte eine HTML-Hülle. Titel und Dokumentdatum nicht verlässlich bestimmt; kein Inhaltsbeleg.
+
+https://iris.who.int/bitstream/10665/132779/1/EB23_41_eng.pdf
+
+Q48
+
+Ludwig von Bertalanffy: Kritische Theorie der Formbildung, 1928. Deutsche Erstfassung bibliografisch nachgewiesen; institutioneller Scan-Zugang eingeschränkt. Keine Originallektüre, kein Satzvergleich mit der Bearbeitung von 1933.
+
+https://nbn-resolving.org/urn:nbn:de:bvb:355-ubr20817-8
+
+Q49
+
+Ludwig von Bertalanffy: Das Gefüge des Lebens, 1937. Bibliografisch und im BCSSS-Werkkatalog nachgewiesen; kein verifizierter offener Volltext gelesen.
+
+https://www.bcsss.org/wp-content/uploads/1-1-1_GSTBiologie_Werke_Monographien.pdf
+
+Q50
+
+Ludwig von Bertalanffy: Tatsachen und Theorien der Formbildung als Weg zum Lebensproblem. Erkenntnis 1, 1930, 361–407. Verlagsnachweis, Originalartikel nicht gelesen.
+
+https://doi.org/10.1007/BF00208627
+
+Q51
+
+Ludwig von Bertalanffy: Der Organismus als physikalisches System betrachtet. Naturwissenschaften 28, 1940, 521–531. Deutscher Erstdruck nicht direkt gelesen. Das Argument ist über den vollständig gelesenen englischen Wiederabdruck in Q8, Kapitel 5, 120–138, erschlossen; Übersetzungs- und Redaktionsvergleich offen.
+
+https://doi.org/10.1007/BF01497764
+
+Q52
+
+Ludwig von Bertalanffy: A Quantitative Theory of Organic Growth (Inquiries on Growth Laws. II). Human Biology 10(2), Mai 1938, S. 181–213. Vollständiger Artikel im öffentlich abrufbaren Originalheft gelesen; Formeln, Versuchsdaten und Grenzen visuell geprüft. Keine offene Nachnutzungslizenz verifiziert.
+
+https://archive.org/details/sim_human-biology_1938-05_10_2
+
+Q53
+
+Ludwig von Bertalanffy: Die organismische Auffassung und ihre Auswirkungen. Der Biologe 10, 1941, H. 7/8, 247–258; H. 9/10, 337–345. Bibliografisch gesichert, kein Originalscan gelesen. Ein Hochschulkatalog weist einen möglichen Sonderdruckbestand aus, dessen Identität ungeklärt bleibt.
+
+https://www.bcsss.org/wp-content/uploads/Bertalanffy_Publications_alphanumerical_BCSSS.pdf
+
+Q54
+
+BCSSS: Lebensdokumente Behördliche Dokumente. Katalog S. 3–5 gelesen; Archivbox 48, Mappe 92. Beschreibt Behördenmaterial 1945–1952, ersetzt aber keine Akteneinsicht. Insbesondere Entnazifizierungsunterlagen nur als Findmittel erschlossen.
+
+https://www.bcsss.org/wp-content/uploads/3-5_Lebensdokumente_Behordliche-Dokumente.pdf
+
+Q55
+
+BCSSS: Nachlassanreicherung Korrespondenz, Bereich 7.2, Box 104, Mappe 159. Ottawa-Briefe 1949–1954 katalogisch erschlossen, nicht im Original gelesen. Aktuelle Archivwegweiser Saint-Paul und uOttawa geprüft; der heutige Ort konkreter Stücke bleibt offen.
+
+https://www.bcsss.org/wp-content/uploads/7-2_NL-Anreicherung_Korrespondenz.pdf
+
+https://ustpaul.ca/bibliotheque-et-archives-jean-leon-allie/archives/
+
+Q56
+
+BCSSS: Krypto-Nachlass Maria von Bertalanffy. Katalogauswahl, besonders 9–11, 17–19 und 41–42 gelesen. Autobiografien Box 53/Mappe 104; Reisedokumente Box 55/Mappe 109; Interview 1976 katalogisiert. Kein Manuskript, Tagebuch oder Tonzeugnis selbst ausgewertet.
+
+https://www.bcsss.org/wp-content/uploads/4-1_Sammlungen_Krypto-NL-MvB.pdf
+
+Q57
+
+Unity Through Diversity, Festschrift 1973. Öffentliches PDF hat nur 102 ausgewählte Seiten. Gesuchte Maria-Erinnerungen S. 31–52 und Huxley-Korrespondenz S. 187–211 fehlen darin. Diese Zielbeiträge sind ungelesen; das Dokument ist kein vollständiger Band.
+
+https://www.coexploration.org/systems/isss-books/Unity_Through_Diversity_Part_I.pdf
+
+Q58
+
+John Bowlby, Interview mit Leonardo Tondo, London 11.1.1990. Erstpublikation Clinical Neuropsychiatry 8, 2011, 159–171; offizieller INHN-Reprint. PDF 1 und zusammenhängend 5–6 gelesen, S. 6 bildgeprüft. Kein Originalton gehört. Die Reprint-Erlaubnis ist keine allgemeine offene Lizenz.
+
+https://inhn.org/fileadmin/user_upload/User_Uploads/INHN/Archives/TONDO_FJETLAND_BOWLBY.pdf
+
+Q59
+
+Ludwig von Bertalanffy: Venetia 1390–1797 Commerce and Sea Mail of the Venetian Republic. Postal History Journal 7(1), Nr. 10, Juni 1963, 17–32. Ganzer Artikel samt Bildlegenden/Literatur gelesen; Kernseiten bildgeprüft, keine unabhängige Entzifferung der abgebildeten historischen Handschriften. APRL-Digitalisat, keine offene Nachdrucklizenz nachgewiesen.
+
+https://digital.stamplibrary.org/Search?coll=j&language=English&yearpub=1963&jtid=650&objid=58417
+
+Q60
+
+Ludwig von Bertalanffy: Sardinia Decrees Introducing the First Postal Stationery 1818–1819. Postal History Journal 7(2), Nr. 11, Dezember 1963, 25–26. Beide Seiten vollständig gelesen und bildgeprüft; Artikelgrenze gesichert. APRL-Digitalisat; keine offene Nachdrucklizenz nachgewiesen.
+
+https://digital.stamplibrary.org/Search?coll=j&language=English&yearpub=1963&jtid=650&objid=57841
+
+Q61
+
+The South African Philatelist, September 1965, S. 191, Meldung Postal History Society of the Americas. Nur die einschlägige Nachricht und der Indexkopf geprüft; S. 191 bildkontrolliert. Universität-Pretoria-Digitalisat, keine Volllektüre des Sammelbands. Vorangestellter Index Januar 1966 nicht mit Meldungsdatum verwechselt; keine offene Lizenz festgestellt.
+
+https://repository.up.ac.za/bitstreams/af37ca3d-0af4-4011-a0d9-2155ffd437b9/download
+
+Q62
+
+Ludwig von Bertalanffy: Problems of Life An Evaluation of Modern Biological Thought. Watts, London 1952. Vorwort ix–xi und Kapitel I–VI, S. 1–204, zusammenhängend gelesen; 25 Bildprüfungen. Englische Zusätze S. 31/53/75 ausdrücklich markiert. Deutsche Erstfassung 1949 ungelesen; Harper-Ausgabe 1960 nicht kollationiert. DLI-Bibliotheksscan; keine offene Lizenz.
+
+https://archive.org/details/dli.ernet.241034
+
+Q63
+
+Ludwig von Bertalanffy und Felix D. Bertalanffy: Die Fluoreszenzmethode in der exfoliativen Cytologie, besonders der Diagnose des Lungenkrebses. Naturwissenschaften 47, 1960, 165–166. DOI 10.1007/BF00633768. Offizielles HTML mit Autoren und Affiliationen gelesen; keine Originalseiten oder Volltextlektüre. Titel nach Verlagsmetadaten; Abonnementvorschau, keine offene Lizenz.
+
+https://link.springer.com/article/10.1007/BF00633768
+
+Q64
+
+Ludwig von Bertalanffy: Biophysik des Fließgleichgewichts. Vieweg 1953; deutsche Übersetzung Wilhelm H. Westphal. Geprüft: Springer-Nachdruck mit modernisiertem Impressum; Vorwort III, Inhaltsverzeichnis IV bildgelesen, Apparat S. 49–56 bibliografisch gesichtet. Haupttext S. 1–48 gesperrt. Nicht mit posthumer Überarbeitung 1977 gleichgesetzt. Keine offene Lizenz.
+
+https://link.springer.com/book/10.1007/978-3-663-20198-4
+
+https://link.springer.com/content/pdf/bfm:978-3-663-20198-4/1
+

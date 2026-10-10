@@ -1,0 +1,329 @@
+Ludwig von Bertalanffy
+Menschenbild, Kulturkritik und der Anspruch einer allgemeinen
+Systemtheorie
+Forschungsbegleiter · 10. Oktober 2026 · Ergänzung zum unveränderten Profil 0.4
+
+Dieser Begleiter vertieft einen bisher unzureichend belegten Zusammenhang: Wie wird
+aus dem biologischen Systemansatz ein Menschenbild, und was trägt die behauptete
+Verbindung der Wissenschaften? Hinzu kommen zwei vollständig gelesene
+zeitgenössische Rezensionen. Das vorhandene Personenprofil mit Lebensgeschichte,
+Beziehungen, politischen Befunden und früheren Werklektüren bleibt erhalten. Die
+Ergänzung ist gemeinsam mit diesem Haupttext zu lesen.
+
+Personenprofil 0.4 öffnen
+
+Drei Stimmen bleiben unterscheidbar: Bertalanffys eigener Text, die damaligen Kritiker
+und Thomas Diesners spätere wissenschaftsphilosophische Rekonstruktion. Keine dieser
+Stimmen wird zum Beweis eines unveränderlichen persönlichen Charakters. Aussagen
+über Denken, Werte und politische Sprache werden nur dort zugeschrieben, wo eine
+bestimmte Quelle sie trägt.
+
+
+1 Eine Hauptwerklücke: Robots, Men and Minds
+Der Erstdruck von 1967 verbindet ein aktives, symbolbildendes Menschenbild mit einer
+organismischen Naturphilosophie. Rückkopplung, offene Systeme und Geschichte bilden
+keine fertig bewiesene Universaltheorie. Bertalanffy markiert Grenzen einzelner
+Modelle, wechselt aber auch zu weitreichender Kulturkritik. [Q1]
+
+Die zuvor ungeprüften Stellen sind jetzt am Buchfoto bestätigt: Auf S. 41 verwendet er in
+seiner Kritik utilitaristischer Wertbegründungen eine eugenische Behauptung über
+genetische Verschlechterung. Diese erscheint als eigene Prämisse; die Seite formuliert
+keine konkrete Zwangsmaßnahme. Anmerkung 1, S. 119, enthält abwertende
+Kulturhierarchien, obwohl er rassistische Überheblichkeit zurückweist. Das sind
+historische Aussagen des Autors, keine übernommenen wissenschaftlichen Tatsachen.
+Beide Befunde gehören in das Personenprofil und verhindern eine beschönigende
+Gleichsetzung von humanistischem Anspruch und durchgehend egalitärem Denken. [Q1]
+
+Lektüre: Vorwort v–vii; Haupttext 3–52 und 55–115; Anmerkungen 1–17, S. 116–132.
+Bibliografie/Register nicht ausgewertet. Beschädigte OCR wurde gezielt am Scan
+kontrolliert. Kein vollständiger experimenteller oder mathematischer Nachweis. [Q1]
+
+
+
+
+                                                                                            1
+2 Das wissenschaftliche Vorhaben genauer lesen
+Die Abschnitte 2.1–2.7 sind eine eigenständig formulierte, gekürzte und neu gegliederte Bearbeitung
+von Thomas Diesners eigener Argumentation auf S. 118–150. Sie geben eine spätere Interpretation
+wieder. Die Bearbeitung steht unter CC BY-SA 4.0. Im Ausgangswerk enthaltene Fremdzitate,
+Abbildungen und andere Drittmaterialien wurden nicht übernommen. Vollständige Attribution und
+Lizenz: Q2.
+
+
+2.1 Übertragung zwischen Fächern ist nicht überall dieselbe Leistung
+Diesners Rekonstruktion legt eine wichtige Unterscheidung nahe: Ein biologisches Modell
+kann Begriffe für ein anderes Forschungsfeld bereitstellen, ohne dessen Gegenstände
+schon mathematisch zu erklären. Bertalanffys psychologische Anwendungen arbeiten
+überwiegend mit solchen konzeptionellen Verschiebungen. Aktivität, Zusammenhang
+und Entwicklung werden zu Leitfragen. Der Gewinn liegt zunächst darin, andere
+Probleme sichtbar zu machen, nicht in einer bereits einheitlichen Berechnung
+psychischer und biologischer Prozesse. [Q2, S. 118–122]
+
+Damit wird das Verhältnis zu etablierten psychologischen Ansätzen genauer. In Diesners
+Darstellung kritisiert Bertalanffy deren Verallgemeinerung, wenn Reaktionen auf Reize
+oder die Wiederherstellung eines Gleichgewichts zur Gesamtbeschreibung des Menschen
+werden. Eine begrenzte Modellleistung ist etwas anderes als eine vollständige
+Anthropologie. Zugleich ist das positive Gegenbild eines aktiven, sich entwickelnden
+Organismus selbst noch kein Ersatz für einzelne Untersuchungen. Die theoretische
+Korrektur und ihre empirische Ausarbeitung sind verschiedene Aufgaben. [Q2, S. 118–
+122]
+
+2.2 Symbolische Kultur verändert die Erklärungsebene
+Der Schritt zur Kultur ist bei Diesner mehr als eine Vergrößerung des biologischen
+Organismus. Symbolische Ordnungen besitzen eigene Zusammenhänge: Zeichen werden
+regelhaft gebraucht, Bedeutungen überliefert und neue Formen geschaffen. Individuen
+leben in einer solchen kulturellen Umwelt und wirken zugleich an ihrer Veränderung
+mit. Die biologische Herkunft des Menschen erschöpft deshalb die Erklärung seiner
+kulturellen Tätigkeiten nicht. [Q2, S. 121–126]
+
+Diese Lesart erlaubt eine differenzierte Einordnung des Systembegriffs. Er soll
+Beziehungen und Organisation vergleichbar machen, ohne Unterschiede der
+Gegenstände zu löschen. Wer eine Kultur als System beschreibt, muss daher noch
+angeben, welche Beziehungen gemeint sind und wodurch sie zustande kommen. Die
+bloße Verwendung desselben Wortes auf biologischer und sozialer Ebene beantwortet
+das nicht. Diesner behandelt die Verbindung als Forschungsprogramm, dessen sachliche
+Bestimmung in der jeweiligen Disziplin erfolgen muss. [Q2, S. 123–128]
+
+
+
+
+                                                                                                      2
+2.3 Die Sozialtheorie bleibt weniger ausgearbeitet als die Biologie
+Diesner stellt fest, dass Bertalanffys gesellschaftstheoretische Anwendung
+vergleichsweise unbestimmt bleibt. Das ist für ein Personen- und Werkprofil wesentlich:
+Die enorme Reichweite eines Interesses ist nicht mit gleichmäßiger fachlicher
+Ausarbeitung zu verwechseln. Der Anspruch, Regelmäßigkeiten im sozialen und
+historischen Geschehen zu untersuchen, liefert noch keine abgeschlossene
+Sozialwissenschaft. Beiträge anderer Systemtheoretiker dürfen zudem nicht
+rückwirkend zu Bertalanffys eigenen Ergebnissen werden. [Q2, S. 123–129]
+
+Die Rekonstruktion unterscheidet dabei zwei problematische Verkürzungen. Gesellschaft
+kann nicht ohne Weiteres als biologischer Einzelorganismus behandelt werden. Ebenso
+würde eine fast ausschließlich auf Bestandserhaltung gerichtete Betrachtung Konflikt,
+Wandel und Entstehung neuer Ordnungen zu wenig erfassen. Das dynamische Interesse
+steht deshalb neben dem Organisationsinteresse. Historische Modelle können
+Vergleichsfragen eröffnen; daraus folgt noch kein ausnahmsloses Gesetz des Aufstiegs
+und Untergangs. [Q2, S. 123–128]
+
+2.4 Systemtechnik und humane Zwecke fallen nicht zusammen
+In Diesners Darstellung gehört Bertalanffy zur Systembewegung und kritisiert zugleich
+deren Verengung auf technische Steuerung. Er ist deshalb weder angemessen als bloßer
+Urheber einer universellen Kontrolltechnik noch als Außenstehender dieser Entwicklung
+beschrieben. Die technischen Anwendungsfelder wurden zu einem wesentlichen Teil von
+anderen Akteuren ausgebaut. Wissenschaftliche Modelle und die gesellschaftlichen
+Zwecke ihres Einsatzes müssen getrennt beurteilt werden. [Q2, S. 129–132]
+
+Auch die Kulturkritik erfordert diese Trennung. Diesner ordnet ihre Motive in
+vorhandene kulturphilosophische Traditionen ein, statt sie als völlig neue
+systemtheoretische Entdeckung zu behandeln. Er deutet das Nebeneinander
+naturwissenschaftlicher und humanistischer Elemente als integrativen Versuch. Diese
+Lesart ist selbst eine interpretative Entscheidung. Sie entbindet nicht davon, den
+Übergang von einer Beschreibung zu einer Forderung oder Wertung im Einzelnen zu
+prüfen. [Q2, S. 130–132]
+
+2.5 Perspektivität ist weder Beliebigkeit noch ein Standpunkt außerhalb der Welt
+Die erkenntnistheoretische Rekonstruktion setzt bei einer Spannung an. Erkenntnis
+hängt von biologischen und kulturellen Bedingungen ab, soll aber dennoch
+objektivierbar sein. Wissenschaftliche Instrumente, abstrakte Begriffe und
+mathematische Beziehungen erweitern den unmittelbaren Erfahrungsraum. Daraus
+entsteht jedoch kein Blick ohne Voraussetzungen. Auch ein wissenschaftliches Modell ist
+eine Auswahl und Bearbeitung von Aspekten seines Gegenstands. [Q2, S. 133–139]
+
+Diesner beschreibt dies als eine Position zwischen absolutem Erkenntnisanspruch und
+radikalem Relativismus. Verschiedene Perspektiven können etwas Reales erschließen,
+ohne jeweils die ganze Wirklichkeit vollständig abzubilden. Die Hoffnung auf
+
+                                                                                          3
+übereinstimmende Strukturen und die Verbindung unterschiedlicher Wissenschaften
+sollen eine bloße Gleichgültigkeit gegenüber besseren und schlechteren Beschreibungen
+vermeiden. Das bedeutet zugleich, dass Ganzheitlichkeit nicht einfach als vollständig
+gegebener Gegenstand vorausgesetzt werden kann. [Q2, S. 133–139]
+
+Wichtig ist die historische Zuschreibung: Diesner zieht spätere
+wissenschaftsphilosophische Positionen zum Vergleich heran. Ein solcher systematischer
+Vergleich belegt keine persönliche Bekanntschaft, bewusste Übernahme oder direkte
+Einflusslinie. Für Bertalanffys Profil zählt hier zunächst die rekonstruierte
+Problemstellung; die späteren Begriffssysteme gehören zur Rezeptionsgeschichte. [Q2, S.
+133–139]
+
+2.6 Wissenschaftliche Einheit bedeutet nicht die Auflösung aller Fächer
+Diesner unterscheidet verschiedene Vorstellungen davon, was eine Einheit der
+Wissenschaften sein könnte. Bertalanffys Ansatz wird dabei als Suche nach strukturellen
+Gemeinsamkeiten verstanden, die unterschiedliche Gegenstandsbereiche miteinander
+verbinden. Das ist nicht gleichbedeutend mit der Forderung, alle Aussagen ausschließlich
+aus einer einzigen physikalischen Theorie abzuleiten. Fachspezifische Fragen und
+Beschreibungen behalten ihre Aufgabe. [Q2, S. 140–150]
+
+Der Unterschied zwischen Gemeinsamkeit und Identität ist entscheidend. Eine
+übereinstimmende Relationsform kann einen Transfer von Methoden oder eine neue
+Frage ermöglichen. Sie zeigt für sich genommen weder, dass die beteiligten Systeme
+materiell gleich sind, noch, dass jede Eigenschaft des einen auf das andere übertragen
+werden darf. Der interdisziplinäre Anspruch braucht daher sowohl begriffliche Präzision
+als auch die Prüfung am jeweiligen Gegenstand. [Q2, S. 140–150]
+
+In dieser Lesart liegt der Nutzen der allgemeinen Systemtheorie wesentlich in der
+Koordination wissenschaftlicher Arbeit: Sie stellt Verbindungsmöglichkeiten bereit, statt
+alle einzelnen Ergebnisse schon zu enthalten. Die Allgemeinheit des Rahmens und der
+Erklärungsgehalt einer konkreten Theorie sind unterschiedliche Stärken. Ein Profil, das
+sie auseinanderhält, kann Bertalanffys programmatische Leistung anerkennen und die
+offenen Nachweispflichten zugleich sichtbar lassen. [Q2, S. 140–150]
+
+2.7 Was diese Rekonstruktion zum Personenprofil beiträgt
+Über die Fachgebiete hinweg wird eine wissenschaftliche Arbeitsorientierung erkennbar:
+Begriffe sollen Grenzen zwischen Disziplinen überbrücken und dennoch die besonderen
+Organisationsweisen ihrer Gegenstände erfassen. Daraus lassen sich Umfang und innere
+Spannungen eines publizierten Vorhabens beschreiben. Daraus folgen keine gesicherten
+Aussagen darüber, wie Bertalanffy privat empfand, welche ungenannten Motive ihn
+leiteten oder wie er sich in jeder Zusammenarbeit verhielt. Diesners Rekonstruktion
+erklärt ein Theorieprogramm; für persönliche Beziehungen und konkrete
+Entscheidungen bleiben andere Quellen erforderlich. [Einordnung auf Grundlage von Q2,
+S. 118–150]
+
+
+                                                                                            4
+3 Zeitgenössische Gegenprüfung
+3.1 Ashby 1955: Zustimmung zum Ziel, Streit über den Aufbau
+W. Ross Ashby teilt ausdrücklich das Interesse an einer allgemeinen Systemtheorie,
+widerspricht aber dem methodischen Vorgehen der Biophysik des Fließgleichgewichts.
+Eine ausreichend allgemeine Theorie solle zunächst als intern kohärentes abstraktes
+System entwickelt werden. Ihre Verbindung mit tatsächlichen physikalischen oder
+chemischen Vorgängen dürfe diese Eigenständigkeit nicht von Beginn an begrenzen. Die
+Entwicklung der Geometrie dient ihm als Vergleich. [Q3, S. 255–256]
+
+Sein Urteil ist deshalb keine pauschale Ablehnung. Am Ende würdigt Ashby Bertalanffys
+Beitrag zur Präzisierung von Organisation, System und Anpassung. Der Konflikt betrifft
+die Forschungsarchitektur: Soll die Allgemeinheit durch Abstraktion aus konkreten
+Naturvorgängen oder durch eine zunächst eigenständige formale Konstruktion
+gewonnen werden? Diese Rezension dokumentiert eine methodische Differenz innerhalb
+des systemtheoretischen Feldes. Sie beweist weder einen persönlichen Bruch noch die
+sachliche Richtigkeit einer der beiden Strategien. Die Biophysik selbst wurde hier nicht
+vollständig gelesen; Ashbys Lektüre ersetzt die fehlenden Buchseiten nicht. [Q3, S. 255–
+256; Einordnung]
+
+3.2 Michalos 1970: Welche Folgerungen trägt die Weltanschauung?
+Alex C. Michalos beurteilt Robots, Men and Minds deutlich kritischer. Er bemängelt den
+lockeren Zusammenhang der behandelten Themen und findet die konkreten
+Konsequenzen der organismischen Sicht unklar. Sein zentraler Einwand richtet sich
+gegen das Verhältnis zwischen umfassender Verfallsdiagnose und dem zugleich
+erhobenen Anspruch auf Verbesserung: Die behauptete Aussichtslosigkeit und die
+angebotene geistige Neuorientierung passten nicht ohne weitere Begründung zusammen.
+[Q4, S. 455]
+
+Damit prüft er vor allem den Übergang vom wissenschaftlichen Menschenbild zur
+Kulturphilosophie. Die bloße Benennung von Organisation, Aktivität und Ganzheit soll
+noch keine gesellschaftliche Schlussfolgerung rechtfertigen. Es handelt sich um eine
+kurze, scharf zugespitzte Rezension, nicht um eine technische Prüfung der gesamten
+biologischen Forschung. Für das Profil ist sie gerade deshalb wertvoll: Der humanistische
+Selbstanspruch wurde zeitgenössisch nicht durchgehend als eingelöst akzeptiert.
+Michalos’ Kritik ist eine eigenständige Gegenstimme, nicht Bertalanffys Selbstauslegung.
+[Q4, S. 455; Einordnung]
+
+
+
+
+                                                                                           5
+3.3 Lachs 1965: Eine Kontroverse bleibt nur teilweise erschlossen
+Die jetzt gelesene erste Seite von John Lachs’ Von Bertalanffy’s New View verlangt
+begriffliche Klarheit und philosophische Prüfung auch dort, wo Wissenschaft zum Leib-
+Seele-Problem beiträgt. Lachs wirft Bertalanffy unpräzise Begriffe und Argumentation
+vor. Die Seite beginnt erst seine Rekonstruktion des Arguments. Gelesen ist S. 365, nicht
+der gesamte Beitrag S. 365–370. Ein Urteil über die vollständige Auseinandersetzung oder
+die Erwiderung wäre damit nicht gedeckt. [Q5]
+
+
+4 Was neu gesichert ist und was offen bleibt
+Der Erkenntnisgewinn besteht in einer zusammenhängenden Hauptwerklektüre mit
+kontrollierten Problemstellen, einer ausführlichen wissenschaftsphilosophischen
+Einordnung und zwei vollständig ausgewerteten Gegenstimmen. Das ist ein engerer und
+besser überprüfbarer Fortschritt als eine Verlängerung allgemeiner
+Lebenslaufdarstellungen. Das Gesamtwerk und die historische Person bleiben weiter
+erschließungsbedürftig.
+
+Fortbestehende Grenzen
+   Biophysik des Fließgleichgewichts (1953): Verlagsstruktur und Vorwort sind
+    zugänglich; ein zusätzlicher fremder Textauszug ist unvollständig und teilweise
+    fehlerhaft. Der zusammenhängende Haupttext ist weiterhin nicht verlässlich
+    vollständig gelesen. Die spätere Ausgabe und der Erstdruck dürfen nicht
+    stillschweigend gleichgesetzt werden.
+   Theoretische Biologie, Band II (1942): weiterhin keine abgeschlossene
+    Haupttextlektüre. Eine Zusammenfassung aus Rezensionen würde diese Lücke nicht
+    schließen.
+   Politischer Text von 1941, Entnazifizierung und Ottawa: Die im Hauptprofil
+    benannten Original- und Aktenlücken bleiben offen. Aus fehlenden Dokumenten
+    werden keine entlastenden oder belastenden Schlussfolgerungen abgeleitet.
+   Maria von Bertalanffy: Eigene Erinnerungen und Vorworte sind als Quellen
+    nachgewiesen, hier aber nicht neu vollständig gelesen. Ihre Perspektive wird nicht
+    durch spätere Erzählungen über sie ersetzt.
+   Lachs-Kontroverse und persönliche Erinnerungen von Joseph R. Royce: Vorschau
+    beziehungsweise Abstract reichen nicht für eine vollständige Auswertung. Eine
+    gefundene bibliografische Spur ist noch kein gelesener Text.
+
+Die bisherigen Editionsvorbehalte bleiben gültig: Die englische Problems-of-Life-Ausgabe
+von 1952 darf nicht ungeprüft als identisch mit dem deutschen Buch von 1949 behandelt
+werden. Auch die vorsichtige Zuschreibung des Beitrags von 1934 und die korrigierte
+Zuordnung der dortigen Passage werden durch diesen Begleiter nicht verändert.
+Einzelheiten stehen im unveränderten Profil 0.4.
+
+
+
+
+                                                                                            6
+5 Quellen, Ausgaben und tatsächliche Lektüre
+Q1 · Ludwig von Bertalanffy · Robots, Men and Minds. George Braziller, New York 1967, erster Druck.
+Umfang der Textlektüre in Abschnitt 1.
+
+Quelle öffnen
+
+Q2 · Thomas Diesner · Die Allgemeine Systemtheorie bei Ludwig von Bertalanffy. Eine Begründung
+interdisziplinärer Wissenschaftspraxis. Logos, Berlin 2015. DOI 10.30819/4103. Neu vollständig gelesen:
+S. 118–150, also die disziplinären Anwendungen sowie die Abschnitte zu Perspektivismus und
+Wissenschaftseinheit. Nicht das ganze Buch neu gelesen. Lizenzseite der offenen Verlagsdatei visuell
+geprüft. Die längere Bearbeitung in Abschnitt 2 betrifft ausschließlich Diesners eigene Argumentation.
+
+Quelle öffnen
+
+Q3 · W. Ross Ashby · Rezension von Biophysik des Fliessgleichgewichts. The British Journal for the
+Philosophy of Science 6, Nr. 23, November 1955, S. 255–256. DOI 10.1093/bjps/VI.23.255. Vollständig
+gelesen und beide Druckseiten visuell geprüft.
+
+Quelle öffnen
+
+Q4 · Alex C. Michalos · Rezension von Robots, Men and Minds. Philosophy of Science 37 (1970), S. 455.
+DOI 10.1086/288323. Die Verlagsvorschau zeigt die ganze einseitige Rezension bis zur Signatur; der
+anschließende Text ist eine andere Rezension. Vollständig gelesen und visuell geprüft.
+
+Quelle öffnen
+
+Q5 · John Lachs · Von Bertalanffy’s New View. Dialogue 4 (1965), S. 365–370. DOI
+10.1017/S0012217300035964. Nur die vollständige erste Seite 365 in der Verlagsvorschau gelesen und
+am Bild geprüft. Keine Volltextlektüre.
+
+Quelle öffnen
+
+Zugang 1953 · Biophysik des Fließgleichgewichts, Verlagsnachweis des Erstdrucks. Das aktuelle
+elektronische Angebot trägt eine spätere technische Veröffentlichungsangabe. Verzeichnis und
+zugängliche Randteile ersetzen keine Lektüre sämtlicher Kapitel.
+
+Quelle öffnen
+
+Zugang Maria · Bertalanffy Center, Bestandskatalog Kryptonachlass Maria von Bertalanffy. Ein
+Findmittel für Erinnerungen, Nachruf und Vorwort; kein Ersatz für die Dokumente.
+
+Quelle öffnen
+
+Ausgabenprüfung Q1: Titel und Copyrightseite bestätigen 1967; der Dateiname ist irreführend.
+Öffentlicher Nutzerupload. Begleitbehauptungen des Uploaders ausgeschlossen; sensible Stellen am
+Bild geprüft. Druckstörung auf S. 5.
+
+Gelesener Ashby-Druck im vollständigen Zeitschriftenheft
+
+Rechtehinweis: Es werden keine Buchscans oder längeren Fremdzitate mitgeliefert. Quellen ohne
+offene Lizenz werden knapp zusammengefasst, jeweils als ein Werk behandelt. Abschnitt 2 ist eine
+gekürzte und neu geordnete Bearbeitung nach Thomas Diesner 2015, S. 118–150, unter CC BY-SA 4.0.
+Diese Lizenz gilt für die gekennzeichnete Bearbeitung und nicht für die übrigen Ausgangswerke.
+
+Lizenz der gekennzeichneten Bearbeitung: CC BY-SA 4.0
+
+
+                                                                                                         7
+
