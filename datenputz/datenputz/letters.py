@@ -286,3 +286,30 @@ I ask you to investigate and to order the controller to comply. Copies of my cor
 Kind regards
 {_sign(profile)}
 """
+
+
+def id_rebuttal(profile, broker, lang="de"):
+    """Antwort, wenn ein Händler pauschal eine Ausweiskopie verlangt (Art. 12 Abs. 6 DSGVO)."""
+    if lang == "de":
+        return f"""Sehr geehrte Damen und Herren,
+
+Sie verlangen für die Bearbeitung meines Antrags eine Kopie meines Ausweises. Nach Art. 12 Abs. 6 DSGVO dürfen Sie zusätzliche Informationen zur Identität nur anfordern, wenn begründete Zweifel an meiner Identität bestehen. Solche Zweifel haben Sie nicht dargelegt.
+
+Ich habe Ihnen bereits die Angaben übermittelt, unter denen Sie meine Daten gespeichert haben (Name, Anschrift, E-Mail-Adresse). Eine Ausweiskopie enthält dagegen zahlreiche Daten, die Sie für die Bearbeitung nicht benötigen; ihre Anforderung widerspricht dem Grundsatz der Datenminimierung (Art. 5 Abs. 1 lit. c DSGVO).
+
+Ich bitte Sie daher, meinen Antrag ohne weitere Nachweise zu bearbeiten. Sollten Sie dennoch begründete Zweifel haben, nennen Sie mir diese bitte konkret; ich kann mich dann z. B. durch eine Antwort von der bei Ihnen hinterlegten E-Mail-Adresse ausweisen. Die gesetzliche Frist läuft weiter.
+
+Mit freundlichen Grüßen
+{profile.get('on_behalf_of_by') or profile['name']}
+"""
+    return f"""Dear Sir or Madam,
+
+you have asked for a copy of my ID document. Under Art. 12(6) GDPR you may request additional information only where you have reasonable doubts concerning my identity. You have not stated any such doubts.
+
+I have already provided the data under which you hold my records (name, address, email address). An ID copy contains a great deal of data you do not need, contrary to the principle of data minimisation (Art. 5(1)(c) GDPR).
+
+Please process my request without further documents. If you nonetheless have reasonable doubts, please state them specifically; I can, for example, confirm my identity by replying from the email address you hold on file. The statutory deadline continues to run.
+
+Kind regards
+{profile.get('on_behalf_of_by') or profile['name']}
+"""

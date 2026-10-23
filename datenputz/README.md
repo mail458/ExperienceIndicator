@@ -64,18 +64,30 @@ python3 -m datenputz web --open                # Web-Oberfläche im Browser
 
 **`daily`** ist der tägliche Lauf, den die Zeitsteuerung startet. Er liest Antworten, sendet Löschanträge und Erinnerungen, prüft Leaks und Aliase, frischt die Sperrlisten wöchentlich auf und erneuert das Dashboard. Gemeldet wird **nur, wenn es etwas zu tun gibt**: ernste Funde, Aufgaben, Bestätigungen von Händlern oder Fehler. Die Meldungen sind standardmäßig knapp und nennen nur Anzahlen, keine Adressen oder Dienste. Details gibt es mit `notify setup … --full`. Kanäle: ntfy (auch selbst gehostet), Gotify, Telegram, Mail.
 
-**Web-Oberfläche** (`web`) mit fünf Bereichen:
-- **Übersicht** mit Privatsphäre-Wert (0–100) und den nächsten Schritten
-- **Aufgaben:** Formulartexte zum Kopieren und Beschwerdeentwürfe, mit Knöpfen wie „Abgeschickt“
-- **Löschanfragen:** alle Anfragen, Status per Auswahl ändern
-- **Leaks:** Maßnahmenplan zum Abhaken
-- **Prüfen:** Link-/Betrugsprüfung und Selbsttest
+**Web-Oberfläche** (`web --open`): Hier geht alles ohne Terminal.
 
-Abgesichert ist sie so:
-- Sie lauscht nur auf 127.0.0.1. Auf dem Server nutzt du `web --listen vpn --allow-remote`, dann ist sie nur über das WireGuard-VPN erreichbar.
-- Zugang nur über einen geheimen Link aus dem Terminal. Er setzt ein Sitzungs-Cookie (HttpOnly, SameSite=Strict).
-- Schutz gegen DNS-Rebinding, CSRF und fremde Herkunft, Bremse gegen Durchprobieren.
-- Strenge Content-Security-Policy, keine Anzeige von Passwörtern oder Schlüsseln.
+| Bereich | Inhalt |
+|---|---|
+| **Einrichten** | Assistent in 5 Schritten: Profil (auch Familie, mit Einwilligung), Mail mit Vorlagen für Gmail, Outlook, GMX, WEB.DE, T-Online, iCloud, Posteo, mailbox.org und IONOS samt Verbindungstest, Leak-Quellen mit Zustimmung, Handy-Push mit QR-Code fürs ntfy-Abo, Automatik |
+| **Heute** | immer nur *eine* Aufgabe: Formular öffnen und Text kopieren, Brief, Beschwerde, ernste Leak-Funde, Handprüfungen. Verlangt ein Händler pauschal einen Ausweis, liegt direkt eine Antwortvorlage nach Art. 12 Abs. 6 DSGVO bereit. „Später“ schiebt eine Karte ans Ende. |
+| **Übersicht** | Privatsphäre-Wert 0–100 mit den nächsten Schritten und Verlaufsdiagramm (Tooltip, Tastatur, Tabellenansicht) |
+| **Anfragen** | Filter („Braucht dich“, „Läuft“, „Erledigt“), Suche, Seiten. Je Händler eine Detailseite mit Zeitstrahl, Hinweisen, dem versendeten Antrag und einer Statusänderung |
+| **Leaks** | Maßnahmenplan zum Abhaken, alle Funde |
+| **Prüfen** | Link, SMS oder Mail auf Betrug prüfen |
+| **System** | Selbsttest, Testnachricht, letzter Lauf, DNS-Statistik, QR-Codes für WireGuard-Geräte und den Handy-Login (im VPN-Modus) |
+
+**Als App aufs Handy:** Manifest, App-Symbol und Navigation unten machen die Oberfläche auf dem Startbildschirm installierbar. Der Service Worker speichert nur die App-Hülle, nie Seiten mit Daten. Er startet nur über HTTPS oder auf localhost, im VPN läuft die Oberfläche als normale Web-App. Auf dem Server: `web --listen vpn --allow-remote --keep-link`. Das Terminal zeigt dann einen QR-Code zum Anmelden am Handy, und der Link bleibt dauerhaft gültig.
+
+**Komfort:** Live-Fortschritt bei Hintergrundaufträgen, Rückfrage vor dem Versand, Bestätigungsmeldungen, Sprunglink und sichtbarer Tastaturfokus, hell und dunkel, Unterstützung für Windows-Kontrastmodus und reduzierte Bewegung.
+
+**Absicherung:**
+- Sie lauscht nur auf 127.0.0.1 bzw. ausdrücklich auf der VPN-Adresse.
+- Zugang nur per geheimem Link, danach mit einem Sitzungs-Cookie (HttpOnly, SameSite=Strict).
+- Schutz gegen DNS-Rebinding und CSRF, Prüfung der Herkunft.
+- Strenge Content-Security-Policy ohne Inline-Skripte oder -Styles, keine Weiterleitung auf fremde Seiten, Bremse gegen Durchprobieren.
+- Passwörter und Schlüssel werden nur geschrieben, nie angezeigt.
+
+QR-Codes erzeugt Datenputz selbst (`qr.py`, ohne Abhängigkeiten). Die Ausgabe ist für alle Masken gegen die Referenzbibliothek `qrcode` geprüft.
 
 Ohne Dienstplaner (z. B. in einem Container) gibt `schedule install` eine Cron-Zeile aus. Von Hand geht es auch so:
 

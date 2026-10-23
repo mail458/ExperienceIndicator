@@ -119,7 +119,9 @@ def run(st, send=True, log=None, only=None):
         return OK, str(out)
     step("Dashboard", dashboard)
 
-    if not only:  # nur vollständige Läufe zählen für den Selbsttest
+    if not only:  # nur vollständige Läufe zählen für den Selbsttest und den Verlauf
+        from . import score
+        score.record(st)
         st.set_kv("daily_last", {"at": S.iso(S.now()), "steps": steps,
                                  "findings": len(notable["findings"]), "replies": notable["replies"]})
 
