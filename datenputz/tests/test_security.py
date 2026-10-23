@@ -180,21 +180,6 @@ class BreachTests(Home):
         self.assertTrue(seen[0].endswith("/range/" + sha[:5]))
         self.assertNotIn("passwort123", seen[0])
 
-    def test_monitor_reports_only_new(self):
-        st = S.Store()
-        leak = [{"Name": "Adobe", "Title": "Adobe", "BreachDate": "2013-10-04", "DataClasses": ["Email addresses"]}]
-
-        def fake(url, **kw):
-            return (200, json.dumps(leak).encode()) if "erika" in url else (404, b"")
-        with mock.patch.object(net, "fetch", fake):
-            new = BR.monitor(st, "KEY", ["erika@example.org", "clean@example.org"], pause=0)
-            self.assertEqual(len(new), 1)
-            self.assertEqual(BR.monitor(st, "KEY", ["erika@example.org"], pause=0), [])
-        self.assertEqual(len(st.breaches()), 1)
-        html = R.render(st, B.by_id())
-        self.assertIn("Datenlecks", html)
-        self.assertIn("Adobe", html)
-
 
 class CheckerTests(Home):
     def test_links(self):

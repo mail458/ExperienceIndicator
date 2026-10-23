@@ -21,8 +21,10 @@ Alles läuft lokal, über dein eigenes Postfach und deinen eigenen Server. Es ge
 
 | Befehl | entspricht bei NordVPN | Was passiert |
 |---|---|---|
-| `breach email [--notify]` | Dark Web Monitor | prüft die E-Mail-Adressen aller Profile bei Have I Been Pwned und meldet nur neue Leaks (API-Schlüssel nötig) |
-| `breach password` | NordPass-Leckprüfung | k-Anonymität: Nur 5 Zeichen des SHA-1-Hashes verlassen den Rechner |
+| `breach email --max [--notify]` | Dark Web Monitor | Leaks, Pastes, Stealer Logs und Infostealer aus fünf Quellen, mit Bewertung und Maßnahmenplan |
+| `breach vault <export.csv>` | NordPass Password Health | prüft jedes Passwort: Leak-Listen, Mehrfachnutzung, schwache Muster, Dienst-Leaks |
+| `alias …` | – | ein Alias pro Dienst: Leaks und Weitergaben dem Verursacher zuordnen |
+| `secret set …` | – | API-Schlüssel und Mailpasswörter im Schlüsselbund des Betriebssystems |
 | `shield update` / `shield serve` | Threat Protection | DNS-Filter mit rund 1 Mio. gesperrten Domains, Upstream verschlüsselt per DNS-over-HTTPS |
 | `shield export --format …` | – | Sperrliste für hosts, Pi-hole/AdGuard, dnsmasq, Unbound |
 | `clean-url` | URL cleaning | Tracking-Parameter (utm_*, fbclid, gclid …) entfernen |
@@ -53,10 +55,13 @@ Wer kein SMTP nutzen will, nimmt `run --outbox`. Dann landen die Mails als `.eml
 
 ```cron
 # m h dom mon dow
-17 8 * * *  cd /pfad/zu/datenputz && DATENPUTZ_SMTP_PASSWORD=… python3 -m datenputz inbox --apply && python3 -m datenputz run --send --yes && python3 -m datenputz report
-43 7 * * *  cd /pfad/zu/datenputz && DATENPUTZ_SMTP_PASSWORD=… python3 -m datenputz breach email --notify
+17 8 * * *  cd /pfad/zu/datenputz && python3 -m datenputz inbox --apply && python3 -m datenputz run --send --yes && python3 -m datenputz report
+43 7 * * *  cd /pfad/zu/datenputz && python3 -m datenputz breach email --notify --new-only
+29 6 * * 1  cd /pfad/zu/datenputz && python3 -m datenputz alias scan --days 8
 11 4 * * 1  cd /pfad/zu/datenputz && python3 -m datenputz shield update
 ```
+
+Passwörter und Schlüssel holt sich Datenputz aus dem Schlüsselbund (`secret set smtp`, `secret set hibp`). Umgebungsvariablen wie `DATENPUTZ_SMTP_PASSWORD` gehen ebenfalls.
 
 `run` ist idempotent: Bei jedem Aufruf erledigt es genau das, was gerade fällig ist (neue Anfragen innerhalb des Tageslimits, Erinnerungen, Beschwerdeentwürfe, neue Runden).
 
@@ -79,13 +84,45 @@ Wer kein SMTP nutzen will, nimmt `run --outbox`. Dann landen die Mails als `.eml
 
 ## Sicherheitsfunktionen im Detail
 
-### Dark-Web-Monitor
+### Dark-Web-Monitor (maximale Recherche)
+
+Details zu Quellen, Methoden und Grenzen: [docs/darkweb-recherche.md](docs/darkweb-recherche.md)
 
 ```bash
-python3 -m datenputz breach email --key <HIBP-SCHLÜSSEL> --save-key   # einmalig; Schlüssel: haveibeenpwned.com/API/Key
-python3 -m datenputz breach email --notify                            # täglich per Cron, neue Funde per Mail
-python3 -m datenputz breach password                                  # Passwort prüfen, kostenlos
+python3 -m datenputz secret set hibp                     # HIBP-Schlüssel in den Schlüsselbund (haveibeenpwned.com/API/Key)
+python3 -m datenputz breach sources --enable xposedornot,leakcheck,hudsonrock   # Drittquellen (einmalige Zustimmung)
+python3 -m datenputz breach email --max                  # alle Adressen, Aliase und Domains in allen Quellen
+python3 -m datenputz breach plan                         # Maßnahmenplan, dringendste zuerst
+python3 -m datenputz breach vault export.csv --shred     # ALLE Passwörter aus dem Passwortmanager prüfen
+python3 -m datenputz breach domain --add meinedomain.de  # ganze Domain überwachen (in HIBP bestätigt)
+python3 -m datenputz breach manual                       # Handprüfungen: HPI, Uni Bonn, Hudson Rock, Mozilla, Google
+python3 -m datenputz breach status                       # HIBP-Tarif, Ratenlimit
 ```
+
+| Quelle | Findet | Zugang |
+|---|---|---|
+| Have I Been Pwned | Leaks, Pastes, **Stealer Logs**, eigene Domains | API-Schlüssel (Stealer Logs nur in höheren Tarifen) |
+| XposedOrNot | weitere Leaks | frei |
+| LeakCheck | Leak-Quellen und betroffene Datenarten | frei |
+| Hudson Rock | **Infostealer-Infektionen** deiner Geräte | frei (inoffizielle Schnittstelle) |
+| Pwned Passwords | jedes einzelne Passwort | frei, k-Anonymität |
+| dein Postfach | Weitergabe deiner Aliase an Fremde | IMAP |
+
+Jeder Fund wird bewertet: **kritisch** (Infostealer, Zahlungs- oder Ausweisdaten, Passwort steht in Leak-Listen), **hoch** (Passwörter, Pastes, Weitergabe eines Alias, Mehrfachnutzung), **mittel** (Telefon, Adresse, Geburtsdatum), **info** (Spam-Listen). Dazu kommen konkrete Schritte.
+
+**Passwort-Audit** (`breach vault`): Liest CSV-Exporte von Bitwarden, Chrome/Edge, Firefox, 1Password, KeePass(XC), Apple, LastPass, Proton Pass, Dashlane und Enpass. Es findet Passwörter aus Leak-Listen, Mehrfachnutzung, schwache Muster („Sommer2024!“) und Dienste mit einem Leak *nach* der letzten Passwortänderung. Klartext-Passwörter werden nie gespeichert oder angezeigt, `--shred` vernichtet den Export danach.
+
+**Aliase** (`alias`): Gib jedem Dienst eine eigene Adresse (SimpleLogin, addy.io, eigene Domain) und trage sie ein:
+
+```bash
+python3 -m datenputz alias add netflix.x7@meinedomain.de netflix.com
+python3 -m datenputz alias scan                          # Post von Fremden an diesen Alias? → Weitergabe
+python3 -m datenputz alias request netflix.x7@meinedomain.de --email privacy@netflix.com
+```
+
+Taucht der Alias im Leak eines *anderen* Unternehmens auf oder bekommt er Post von Fremden, weißt du, wer deine Daten weitergegeben hat. Der Löschantrag nennt nur den Alias, nicht deine Hauptadresse.
+
+**Passwort prüfen ohne Schlüssel:** `python3 -m datenputz breach password`
 
 ### Bedrohungsschutz (DNS-Filter)
 
@@ -132,7 +169,7 @@ Auskunfteien (z. B. SCHUFA, CRIF, infoscore) und Inkassounternehmen bekommen sta
 
 Alles liegt in `~/.datenputz` (oder in `$DATENPUTZ_HOME` bzw. `--home`), mit den Rechten 700/600:
 
-- `datenputz.db`: Profile, Anfragen, Verlauf (SQLite)
+- `datenputz.db`: Profile, Anfragen, Verlauf, Leak-Funde (nur Metadaten), Aliase (SQLite, Rechte 600)
 - `sent/`: Kopie jeder versendeten Mail als Nachweis
 - `forms/`, `letters/`: fertige Texte zum Einfügen ins Formular bzw. zum Ausdrucken
 - `complaints/`: Beschwerdeentwürfe an die Aufsichtsbehörde (werden nie automatisch verschickt)

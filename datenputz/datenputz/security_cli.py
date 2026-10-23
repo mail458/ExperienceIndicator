@@ -1,6 +1,4 @@
-"""Befehle für die Sicherheitsfunktionen (NordVPN-Funktionsumfang)."""
-import getpass
-import os
+"""Befehle für Bedrohungsschutz, Link-/Datei-Check, VPN, Verbindungs-Check und Passwörter."""
 import secrets
 import shutil
 import string
@@ -10,80 +8,11 @@ from pathlib import Path
 from . import breach as BR
 from . import checker as C
 from . import leakcheck as LC
-from . import mailer as M
 from . import shield as SH
 from . import vpn as V
 
 ICON = {"ok": "✔", "warn": "⚠", "bad": "✖", "info": "ℹ",
         "unauffällig": "✔", "verdächtig": "⚠", "gefährlich": "✖"}
-
-
-# --- Dark-Web-Monitor -------------------------------------------------------
-def _hibp_key(a, st):
-    key = a.key or os.environ.get("HIBP_API_KEY") or st.config().get("hibp_api_key")
-    if a.key and a.save_key:
-        cfg = st.config()
-        cfg["hibp_api_key"] = a.key
-        st.save_config(cfg)
-    return key
-
-
-def breach_email(a, st):
-    key = _hibp_key(a, st)
-    if not key:
-        sys.exit("Für die Prüfung von E-Mail-Adressen braucht Have I Been Pwned einen API-Schlüssel:\n"
-                 "  https://haveibeenpwned.com/API/Key  →  breach email --key <SCHLÜSSEL> --save-key\n"
-                 "Passwörter lassen sich ohne Schlüssel prüfen: breach password")
-    emails = sorted({e.lower() for p in st.profiles() for e in p.get("emails", [])} |
-                    set(st.config().get("monitor_emails", [])) | {e.lower() for e in (a.email or [])})
-    if not emails:
-        sys.exit("Keine Adressen. Profil anlegen (init) oder --email angeben.")
-    print(f"Prüfe {len(emails)} Adresse(n) …")
-    new = BR.monitor(st, key, emails)
-    known = st.breaches()
-    for email in emails:
-        hits = [b for e, b, _ in known if e == email]
-        print(f"{'✖' if hits else '✔'} {email}: {len(hits)} bekannte Leaks")
-        for b in hits:
-            print(f"    {'NEU ' if (email, b) in new else '    '}{BR.describe(b)}")
-    if new:
-        print(f"\n{len(new)} neue Funde. Betroffene Passwörter ändern und Zwei-Faktor-Anmeldung einschalten.")
-        if a.notify:
-            _notify(st, new)
-
-
-def _notify(st, new):
-    cfg = st.config().get("smtp")
-    if not cfg:
-        print("(Keine Benachrichtigung: SMTP nicht eingerichtet)")
-        return
-    lines = [f"- {e}: {BR.describe(b)}" for e, b in new]
-    body = ("Datenputz hat neue Datenlecks gefunden:\n\n" + "\n".join(lines) +
-            "\n\nEmpfehlung: Passwort bei den betroffenen Diensten und überall, wo es ebenfalls genutzt wurde, "
-            "ändern; Zwei-Faktor-Anmeldung aktivieren; auf Phishing-Mails achten, die sich auf diese Dienste berufen.\n")
-    to = sorted({e for e, _ in new})
-    msg = M.build(cfg["from"], ", ".join(to), f"Datenputz: {len(new)} neue Datenlecks gefunden", body)
-    m = M.SMTPMailer(cfg, delay=0)
-    m.send(msg, "breach")
-    m.close()
-    print(f"Benachrichtigung an {', '.join(to)} gesendet.")
-
-
-def breach_password(a, st):
-    pw = sys.stdin.readline().rstrip("\n") if a.stdin else getpass.getpass("Passwort (wird nicht angezeigt): ")
-    n = BR.password_count(pw)
-    if n:
-        print(f"✖ Dieses Passwort taucht {n:,} Mal in Datenlecks auf. Nicht mehr verwenden!".replace(",", "."))
-    else:
-        print("✔ Nicht in bekannten Leaks gefunden (nur die ersten 5 Hash-Zeichen wurden übertragen).")
-
-
-def breach_list(a, st):
-    rows = st.breaches()
-    if not rows:
-        print("Noch keine Leaks gespeichert (breach email ausführen).")
-    for email, b, found in rows:
-        print(f"{email:<32} {BR.describe(b)}   [gefunden {found[:10]}]")
 
 
 # --- Bedrohungsschutz -------------------------------------------------------
@@ -260,15 +189,6 @@ def password(a, st):
 
 # -----------------------------------------------------------------------------
 def register(sub):
-    p = sub.add_parser("breach", help="Dark-Web-Monitor: Datenlecks zu E-Mails und Passwörtern")
-    bs = p.add_subparsers(dest="sub", required=True)
-    q = bs.add_parser("email", help="E-Mail-Adressen der Profile prüfen (HIBP-Schlüssel nötig)")
-    q.add_argument("--email", nargs="*"); q.add_argument("--key"); q.add_argument("--save-key", action="store_true")
-    q.add_argument("--notify", action="store_true", help="neue Funde per Mail melden"); q.set_defaults(func=breach_email)
-    q = bs.add_parser("password", help="Passwort prüfen (k-Anonymität, kein Schlüssel nötig)")
-    q.add_argument("--stdin", action="store_true"); q.set_defaults(func=breach_password)
-    bs.add_parser("list", help="gespeicherte Funde").set_defaults(func=breach_list)
-
     p = sub.add_parser("shield", help="Bedrohungsschutz: DNS-Filter gegen Werbung, Tracker, Malware, Phishing")
     ss = p.add_subparsers(dest="sub", required=True)
     q = ss.add_parser("update", help="Sperrlisten laden"); q.add_argument("--only", help=",".join(SH.SOURCES))

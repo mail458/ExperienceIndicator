@@ -7,6 +7,7 @@ from email import message_from_bytes
 from pathlib import Path
 
 from . import brokers as B
+from . import darkweb_cli
 from . import engine as E
 from . import inbox as I
 from . import mailer as M
@@ -77,8 +78,8 @@ def cmd_profiles(a, st):
 def cmd_smtp(a, st):
     cfg = st.config()
     sm = cfg.get("smtp", {})
-    print("Tipp Gmail/Outlook: App-Passwort verwenden. Das Passwort wird nicht gespeichert –\n"
-          "setze DATENPUTZ_SMTP_PASSWORD oder gib es beim Versand ein.\n")
+    print("Tipp Gmail/Outlook: App-Passwort verwenden. Das Passwort selbst gehört in den Schlüsselbund:\n"
+          "  python -m datenputz secret set smtp   (und ggf. secret set imap)\n")
     sm["host"] = ask("SMTP-Server", sm.get("host", "smtp.gmail.com"))
     sm["security"] = ask("Verschlüsselung (starttls/ssl)", sm.get("security", "starttls"))
     sm["port"] = int(ask("Port", str(sm.get("port", 587 if sm["security"] == "starttls" else 465))))
@@ -288,6 +289,7 @@ def parser():
     p.add_argument("--days", type=int, default=60); p.add_argument("--apply", action="store_true")
     p.add_argument("--eml-dir", help="statt IMAP: Ordner mit gespeicherten .eml-Dateien")
     p = sub.add_parser("report", help="HTML-Übersicht erzeugen"); p.add_argument("-o", "--output")
+    darkweb_cli.register(sub)
     security_cli.register(sub)
     return ap
 

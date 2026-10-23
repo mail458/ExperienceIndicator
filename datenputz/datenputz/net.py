@@ -8,9 +8,15 @@ USER_AGENT = f"datenputz/{__version__} (+https://github.com/mail458/experiencein
 
 
 class HTTPError(Exception):
-    def __init__(self, status, body=b""):
+    def __init__(self, status, body=b"", headers=None):
         super().__init__(f"HTTP {status}")
-        self.status, self.body = status, body
+        self.status, self.body, self.headers = status, body, dict(headers or {})
+
+    def retry_after(self, default=7):
+        try:
+            return max(1, int(self.headers.get("Retry-After") or self.headers.get("retry-after") or default))
+        except ValueError:
+            return default
 
 
 def fetch(url, data=None, headers=None, timeout=30, method=None):
@@ -23,4 +29,4 @@ def fetch(url, data=None, headers=None, timeout=30, method=None):
     except urllib.error.HTTPError as e:
         if e.code == 404:
             return 404, e.read()
-        raise HTTPError(e.code, e.read()) from None
+        raise HTTPError(e.code, e.read(), e.headers.items() if e.headers else None) from None

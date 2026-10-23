@@ -41,15 +41,25 @@ def _d(s):
 
 def security(store):
     """Kacheln und Liste für Dark-Web-Monitor, DNS-Filter und VPN (leer, wenn nichts genutzt wird)."""
-    from . import shield, vpn
+    from . import breach, shield, vpn
     tiles, items = [], []
-    found = store.breaches()
+    found = sorted(store.findings(), key=lambda f: (breach.RANK[f["severity"]], f["subject"]))
     last = store.get_kv("breach_last_check")
     if found or last:
-        tiles.append(("Datenlecks", len(found)))
-        for email, b, _ in found[:12]:
-            items.append(f"<li><b>{html.escape(b.get('Title', b['Name']))}</b> ({html.escape(b.get('BreachDate', ''))}) – "
-                         f"{html.escape(email)}: {html.escape(', '.join(b.get('DataClasses', [])[:5]))}</li>")
+        crit = sum(1 for f in found if f["severity"] == "kritisch")
+        tiles.append(("Leak-Funde", len(found)))
+        tiles.append(("davon kritisch", crit))
+        tone = {"kritisch": "bad", "hoch": "warn", "mittel": "info", "info": "muted"}
+        for f in found[:25]:
+            act = f.get("actions") or []
+            items.append(f'<li><span class="pill {tone[f["severity"]]}">{f["severity"]}</span> '
+                         f'<b>{html.escape(breach.describe(f))}</b> – {html.escape(f["subject"])} '
+                         f'<span class="sub">[{html.escape(f["source"])}]</span>'
+                         + (f'<div class="sub">→ {html.escape(act[0][1])}</div>' if act else "") + "</li>")
+    va = store.get_kv("vault_audit")
+    if va:
+        tiles.append(("Passwörter geprüft", va["total"]))
+        tiles.append(("Passwörter kritisch", va["kritisch"]))
     stats = shield.folder() / "stats.json"
     if stats.exists():
         st = json.loads(stats.read_text())
@@ -106,7 +116,7 @@ body {{ margin:0; background:var(--bg); color:var(--fg); font:15px/1.45 system-u
 main {{ max-width:1100px; margin:0 auto; padding:32px 16px 64px }}
 h1 {{ font-size:24px; margin:0 0 4px }} h2 {{ font-size:17px; margin:28px 0 10px }}
 .leaks {{ background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px 16px 12px 32px; margin:0 0 8px }}
-.leaks li {{ margin:4px 0 }} .lead {{ color:var(--mut); margin:0 0 24px }}
+.leaks {{ list-style:none; padding-left:16px }} .leaks li {{ margin:8px 0 }} .lead {{ color:var(--mut); margin:0 0 24px }}
 .tiles {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin-bottom:20px }}
 .tile {{ background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 16px }}
 .tile .v {{ font-size:26px; font-weight:650; font-variant-numeric:tabular-nums }} .tile .k {{ color:var(--mut); font-size:13px }}

@@ -60,10 +60,17 @@ class Engine:
             n += 1
         return n
 
-    def add_custom(self, profile, broker, urls):
+    def add_custom(self, profile, broker, urls, identity=None):
         """Eigene Löschanfrage (wie Incognis „Custom Removals“) für beliebige Seiten."""
         self.brokers[broker["id"]] = broker
-        return self.s.create_request(profile["_id"], broker["id"], "erasure", self._channel(broker), urls=urls)
+        return self.s.create_request(profile["_id"], broker["id"], "erasure", self._channel(broker), urls=urls,
+                                     identity=identity)
+
+    def _profile(self, r):
+        p = self.s.profile_by_id(r["profile_id"])
+        if r["identity"]:
+            p = {**p, **json.loads(r["identity"])}
+        return p
 
     @staticmethod
     def _channel(b):
@@ -87,7 +94,8 @@ class Engine:
             due = S.parse(r["next_round_at"])
             if due and due <= now and self.s.latest(r["profile_id"], r["broker_id"])["id"] == r["id"]:
                 self.s.create_request(r["profile_id"], r["broker_id"], r["kind"], r["channel"],
-                                      round_=r["round"] + 1, urls=_urls(r))
+                                      round_=r["round"] + 1, urls=_urls(r),
+                                      identity=json.loads(r["identity"]) if r["identity"] else None)
                 stats["recurring"] += 1
 
         # 2. Geplante Anfragen versenden bzw. an den Nutzer übergeben – wichtigste Händler zuerst
@@ -97,7 +105,7 @@ class Engine:
             b = self.brokers.get(r["broker_id"])
             if not b:
                 continue
-            p = self.s.profile_by_id(r["profile_id"])
+            p = self._profile(r)
             if r["channel"] == "email":
                 if budget <= 0:
                     stats["deferred"] += 1
@@ -112,7 +120,7 @@ class Engine:
         # 3. Frist abgelaufen → Erinnerung
         for r in self.s.requests(statuses=(S.SENT,)):
             if S.parse(r["due_at"]) and S.parse(r["due_at"]) <= now:
-                b, p = self.brokers.get(r["broker_id"]), self.s.profile_by_id(r["profile_id"])
+                b, p = self.brokers.get(r["broker_id"]), self._profile(r)
                 if not b:
                     continue
                 if b.get("email"):
@@ -131,7 +139,7 @@ class Engine:
         # 4. Nachfrist abgelaufen → Beschwerdeentwurf
         for r in self.s.requests(statuses=(S.REMINDED,)):
             if S.parse(r["due_at"]) and S.parse(r["due_at"]) <= now:
-                b, p = self.brokers.get(r["broker_id"]), self.s.profile_by_id(r["profile_id"])
+                b, p = self.brokers.get(r["broker_id"]), self._profile(r)
                 if b:
                     self._escalate(r, p, b, now)
                     stats["escalated"] += 1

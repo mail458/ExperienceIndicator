@@ -45,7 +45,8 @@ CREATE TABLE IF NOT EXISTS requests (
     next_round_at TEXT,
     message_id TEXT,
     urls TEXT,
-    note TEXT
+    note TEXT,
+    identity TEXT
 );
 CREATE INDEX IF NOT EXISTS idx_req_profile_broker ON requests(profile_id, broker_id);
 CREATE TABLE IF NOT EXISTS breaches (
@@ -54,6 +55,23 @@ CREATE TABLE IF NOT EXISTS breaches (
     data TEXT NOT NULL,
     found TEXT NOT NULL,
     PRIMARY KEY (email, name)
+);
+CREATE TABLE IF NOT EXISTS findings (
+    kind TEXT NOT NULL,       -- breach, paste, stealer, infostealer, domain_breach, domain_stealer, alias_leak
+    subject TEXT NOT NULL,    -- E-Mail-Adresse bzw. Alias
+    key TEXT NOT NULL,        -- Leak-Name, Paste-ID, Website …
+    source TEXT NOT NULL,     -- hibp, xposedornot, leakcheck, hudsonrock, inbox
+    severity TEXT NOT NULL,   -- kritisch, hoch, mittel, info
+    data TEXT NOT NULL,
+    found TEXT NOT NULL,
+    PRIMARY KEY (kind, subject, key, source)
+);
+CREATE TABLE IF NOT EXISTS aliases (
+    alias TEXT PRIMARY KEY,
+    service TEXT NOT NULL,
+    related TEXT,
+    note TEXT,
+    created TEXT NOT NULL
 );
 CREATE TABLE IF NOT EXISTS kv (k TEXT PRIMARY KEY, v TEXT);
 CREATE TABLE IF NOT EXISTS events (
@@ -90,9 +108,22 @@ class Store:
             os.chmod(self.dir, 0o700)
         except OSError:
             pass
-        self.db = sqlite3.connect(self.dir / "datenputz.db")
+        db_path = self.dir / "datenputz.db"
+        self.db = sqlite3.connect(db_path)
         self.db.row_factory = sqlite3.Row
         self.db.executescript(SCHEMA)
+        cols = {r["name"] for r in self.db.execute("PRAGMA table_info(requests)")}
+        if "identity" not in cols:  # Datenbanken aus Version 0.1/0.2
+            self.db.execute("ALTER TABLE requests ADD COLUMN identity TEXT")
+        try:  # enthält personenbezogene Daten: nur für den Eigentümer lesbar
+            os.chmod(db_path, 0o600)
+        except OSError:
+            pass
+        # Leaks aus Version 0.2 in die allgemeine Fund-Tabelle übernehmen
+        self.db.execute(
+            "INSERT OR IGNORE INTO findings(kind, subject, key, source, severity, data, found) "
+            "SELECT 'breach', email, name, 'hibp', 'mittel', data, found FROM breaches")
+        self.db.commit()
 
     # --- Konfiguration -------------------------------------------------
     @property
@@ -136,12 +167,13 @@ class Store:
         return d
 
     # --- Anfragen ------------------------------------------------------
-    def create_request(self, profile_id, broker_id, kind, channel, round_=1, urls=None):
+    def create_request(self, profile_id, broker_id, kind, channel, round_=1, urls=None, identity=None):
+        """`identity` ersetzt einzelne Profilangaben nur für diese Anfrage (z. B. nur den Alias nennen)."""
         cur = self.db.execute(
-            "INSERT INTO requests(profile_id, broker_id, kind, channel, status, round, created, urls) "
-            "VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+            "INSERT INTO requests(profile_id, broker_id, kind, channel, status, round, created, urls, identity) "
+            "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
             (profile_id, broker_id, kind, channel, PENDING, round_, iso(now()),
-             json.dumps(urls) if urls else None),
+             json.dumps(urls) if urls else None, json.dumps(identity) if identity else None),
         )
         self.db.commit()
         self.log(cur.lastrowid, "created", f"Runde {round_}")
@@ -197,19 +229,59 @@ class Store:
             "SELECT COUNT(*) FROM events WHERE type IN ('sent', 'reminder_sent') AND ts >= ?", (start,)
         ).fetchone()[0]
 
-    # --- Sicherheit: Leaks und Merkwerte ---------------------------------
-    def add_breach(self, email, breach):
-        """True, wenn der Leak für diese Adresse neu ist."""
+    # --- Sicherheit: Funde, Aliase, Merkwerte -----------------------------
+    def add_finding(self, f):
+        """Speichert einen Fund (dict mit kind, subject, key, source, severity). True, wenn neu."""
         cur = self.db.execute(
-            "INSERT OR IGNORE INTO breaches(email, name, data, found) VALUES (?, ?, ?, ?)",
-            (email.lower(), breach["Name"], json.dumps(breach, ensure_ascii=False), iso(now())),
+            "INSERT OR IGNORE INTO findings(kind, subject, key, source, severity, data, found) "
+            "VALUES (?, ?, ?, ?, ?, ?, ?)",
+            (f["kind"], f["subject"].lower(), f["key"], f["source"], f["severity"],
+             json.dumps(f, ensure_ascii=False), iso(now())),
         )
         self.db.commit()
         return cur.rowcount == 1
 
+    def findings(self, kind=None, subject=None):
+        q, args = "SELECT * FROM findings WHERE 1=1", []
+        if kind:
+            q += " AND kind = ?"
+            args.append(kind)
+        if subject:
+            q += " AND subject = ?"
+            args.append(subject.lower())
+        out = []
+        for r in self.db.execute(q + " ORDER BY found DESC, subject", args):
+            d = json.loads(r["data"])
+            d.update(kind=r["kind"], subject=r["subject"], key=r["key"], source=r["source"],
+                     severity=r["severity"], found=r["found"])
+            out.append(d)
+        return out
+
+    def add_breach(self, email, breach):
+        """Kompatibilität: HIBP-Leak als Fund speichern."""
+        return self.add_finding({"kind": "breach", "subject": email, "key": breach["Name"], "source": "hibp",
+                                 "severity": "mittel", **breach})
+
     def breaches(self):
-        return [(r["email"], json.loads(r["data"]), r["found"])
-                for r in self.db.execute("SELECT * FROM breaches ORDER BY found DESC, email")]
+        return [(f["subject"], f, f["found"]) for f in self.findings("breach") if f["source"] == "hibp"]
+
+    def add_alias(self, alias, service, related=None, note=None):
+        self.db.execute(
+            "INSERT INTO aliases(alias, service, related, note, created) VALUES (?, ?, ?, ?, ?) "
+            "ON CONFLICT(alias) DO UPDATE SET service = excluded.service, related = excluded.related, "
+            "note = excluded.note",
+            (alias.lower(), service.lower(), ",".join(related or []), note, iso(now())),
+        )
+        self.db.commit()
+
+    def aliases(self):
+        return [dict(r) | {"related": [x for x in (r["related"] or "").split(",") if x]}
+                for r in self.db.execute("SELECT * FROM aliases ORDER BY alias")]
+
+    def remove_alias(self, alias):
+        cur = self.db.execute("DELETE FROM aliases WHERE alias = ?", (alias.lower(),))
+        self.db.commit()
+        return cur.rowcount == 1
 
     def set_kv(self, k, v):
         self.db.execute("INSERT INTO kv(k, v) VALUES (?, ?) ON CONFLICT(k) DO UPDATE SET v = excluded.v",
