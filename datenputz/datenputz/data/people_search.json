@@ -1,0 +1,464 @@
+[
+ {
+  "id": "spokeo",
+  "name": "Spokeo",
+  "email": null,
+  "webform": "https://www.spokeo.com/optout",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ },
+ {
+  "id": "whitepages",
+  "name": "Whitepages",
+  "email": null,
+  "webform": "https://www.whitepages.com/suppression-requests",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ },
+ {
+  "id": "beenverified",
+  "name": "BeenVerified",
+  "email": null,
+  "webform": "https://www.beenverified.com/app/optout/search",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ },
+ {
+  "id": "peopleconnect",
+  "name": "PeopleConnect (Intelius, Instant Checkmate, TruthFinder, US Search, ZabaSearch)",
+  "email": null,
+  "webform": "https://suppression.peopleconnect.us/login",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ },
+ {
+  "id": "peoplefinders",
+  "name": "PeopleFinders",
+  "email": null,
+  "webform": "https://www.peoplefinders.com/opt-out",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ },
+ {
+  "id": "radaris",
+  "name": "Radaris",
+  "email": null,
+  "webform": "https://radaris.com/control/privacy",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ },
+ {
+  "id": "truepeoplesearch",
+  "name": "TruePeopleSearch",
+  "email": null,
+  "webform": "https://www.truepeoplesearch.com/removal",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ },
+ {
+  "id": "fastpeoplesearch",
+  "name": "FastPeopleSearch",
+  "email": null,
+  "webform": "https://www.fastpeoplesearch.com/removal",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ },
+ {
+  "id": "thatsthem",
+  "name": "That's Them",
+  "email": null,
+  "webform": "https://thatsthem.com/optout",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ },
+ {
+  "id": "nuwber",
+  "name": "Nuwber",
+  "email": null,
+  "webform": "https://nuwber.com/removal/link",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ },
+ {
+  "id": "peekyou",
+  "name": "PeekYou",
+  "email": null,
+  "webform": "https://www.peekyou.com/about/contact/optout/",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ },
+ {
+  "id": "familytreenow",
+  "name": "FamilyTreeNow",
+  "email": null,
+  "webform": "https://www.familytreenow.com/optout",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ },
+ {
+  "id": "advancedbackgroundchecks",
+  "name": "AdvancedBackgroundChecks",
+  "email": null,
+  "webform": "https://www.advancedbackgroundchecks.com/removal",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ },
+ {
+  "id": "clustrmaps",
+  "name": "ClustrMaps",
+  "email": null,
+  "webform": "https://clustrmaps.com/bl/opt-out",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ },
+ {
+  "id": "smartbackgroundchecks",
+  "name": "SmartBackgroundChecks",
+  "email": null,
+  "webform": "https://www.smartbackgroundchecks.com/optout",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ },
+ {
+  "id": "usphonebook",
+  "name": "USPhoneBook",
+  "email": null,
+  "webform": "https://www.usphonebook.com/opt-out",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ },
+ {
+  "id": "cyberbackgroundchecks",
+  "name": "CyberBackgroundChecks",
+  "email": null,
+  "webform": "https://www.cyberbackgroundchecks.com/removal",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ },
+ {
+  "id": "searchpeoplefree",
+  "name": "SearchPeopleFree",
+  "email": null,
+  "webform": "https://www.searchpeoplefree.com/opt-out",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ },
+ {
+  "id": "peoplesearchnow",
+  "name": "PeopleSearchNow",
+  "email": null,
+  "webform": "https://www.peoplesearchnow.com/opt-out",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ },
+ {
+  "id": "acxiom-us",
+  "name": "Acxiom LLC (USA)",
+  "email": null,
+  "webform": "https://isapps.acxiom.com/optout/optout.aspx",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ },
+ {
+  "id": "lexisnexis",
+  "name": "LexisNexis Risk Solutions",
+  "email": null,
+  "webform": "https://optout.lexisnexis.com/",
+  "web": null,
+  "address": null,
+  "countries": [
+   "us"
+  ],
+  "categories": [
+   "people search"
+  ],
+  "type": "public",
+  "default_request": "ccpa_delete",
+  "channel": "webform",
+  "language": "en",
+  "needs_id": false,
+  "required": [],
+  "comments": [],
+  "source": "kuratiert – Opt-out-URL vor Nutzung prüfen"
+ }
+]
