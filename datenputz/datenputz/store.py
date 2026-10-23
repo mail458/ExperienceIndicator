@@ -48,6 +48,14 @@ CREATE TABLE IF NOT EXISTS requests (
     note TEXT
 );
 CREATE INDEX IF NOT EXISTS idx_req_profile_broker ON requests(profile_id, broker_id);
+CREATE TABLE IF NOT EXISTS breaches (
+    email TEXT NOT NULL,
+    name TEXT NOT NULL,
+    data TEXT NOT NULL,
+    found TEXT NOT NULL,
+    PRIMARY KEY (email, name)
+);
+CREATE TABLE IF NOT EXISTS kv (k TEXT PRIMARY KEY, v TEXT);
 CREATE TABLE IF NOT EXISTS events (
     id INTEGER PRIMARY KEY,
     request_id INTEGER NOT NULL REFERENCES requests(id),
@@ -188,3 +196,26 @@ class Store:
         return self.db.execute(
             "SELECT COUNT(*) FROM events WHERE type IN ('sent', 'reminder_sent') AND ts >= ?", (start,)
         ).fetchone()[0]
+
+    # --- Sicherheit: Leaks und Merkwerte ---------------------------------
+    def add_breach(self, email, breach):
+        """True, wenn der Leak für diese Adresse neu ist."""
+        cur = self.db.execute(
+            "INSERT OR IGNORE INTO breaches(email, name, data, found) VALUES (?, ?, ?, ?)",
+            (email.lower(), breach["Name"], json.dumps(breach, ensure_ascii=False), iso(now())),
+        )
+        self.db.commit()
+        return cur.rowcount == 1
+
+    def breaches(self):
+        return [(r["email"], json.loads(r["data"]), r["found"])
+                for r in self.db.execute("SELECT * FROM breaches ORDER BY found DESC, email")]
+
+    def set_kv(self, k, v):
+        self.db.execute("INSERT INTO kv(k, v) VALUES (?, ?) ON CONFLICT(k) DO UPDATE SET v = excluded.v",
+                        (k, json.dumps(v)))
+        self.db.commit()
+
+    def get_kv(self, k, default=None):
+        r = self.db.execute("SELECT v FROM kv WHERE k = ?", (k,)).fetchone()
+        return json.loads(r["v"]) if r else default

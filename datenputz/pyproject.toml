@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "datenputz"
-version = "0.1.0"
-description = "Löschanfragen nach DSGVO/CCPA automatisch an Datenhändler senden, nachverfolgen und wiederholen."
+version = "0.2.0"
+description = "Privatsphäre-Werkzeugkasten: Datenhändler-Löschung (wie Incogni), Dark-Web-Monitor, DNS-Bedrohungsschutz, Link-/Datei-Check und eigenes WireGuard-VPN (wie NordVPN)."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }

@@ -11,6 +11,7 @@ from . import engine as E
 from . import inbox as I
 from . import mailer as M
 from . import report as R
+from . import security_cli
 from . import store as S
 
 STATUS_ALIASES = {
@@ -246,7 +247,10 @@ def cmd_report(a, st):
 
 # ---------------------------------------------------------------------------
 def parser():
-    ap = argparse.ArgumentParser(prog="datenputz", description="Persönliche Daten bei Datenhändlern löschen lassen.")
+    ap = argparse.ArgumentParser(
+        prog="datenputz",
+        description="Privatsphäre-Werkzeugkasten: Daten bei Händlern löschen lassen (wie Incogni), "
+                    "Datenlecks überwachen, DNS-Bedrohungsschutz, Link-/Datei-Check und eigenes VPN (wie NordVPN).")
     ap.add_argument("--home", help="Datenverzeichnis (Standard: ~/.datenputz oder $DATENPUTZ_HOME)")
     sub = ap.add_subparsers(dest="cmd", required=True)
 
@@ -284,6 +288,7 @@ def parser():
     p.add_argument("--days", type=int, default=60); p.add_argument("--apply", action="store_true")
     p.add_argument("--eml-dir", help="statt IMAP: Ordner mit gespeicherten .eml-Dateien")
     p = sub.add_parser("report", help="HTML-Übersicht erzeugen"); p.add_argument("-o", "--output")
+    security_cli.register(sub)
     return ap
 
 
@@ -293,7 +298,7 @@ def main(argv=None):
         import os
         os.environ["DATENPUTZ_HOME"] = a.home
     st = S.Store()
-    globals()["cmd_" + a.cmd](a, st)
+    (getattr(a, "func", None) or globals()["cmd_" + a.cmd])(a, st)
 
 
 if __name__ == "__main__":

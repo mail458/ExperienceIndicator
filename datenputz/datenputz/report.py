@@ -1,5 +1,6 @@
 """Dashboard als eigenständige HTML-Datei (wie Incognis Fortschrittsübersicht)."""
 import html
+import json
 from collections import Counter
 
 from . import store as S
@@ -36,6 +37,32 @@ def summary(items):
 
 def _d(s):
     return S.parse(s).strftime("%d.%m.%Y") if s else ""
+
+
+def security(store):
+    """Kacheln und Liste für Dark-Web-Monitor, DNS-Filter und VPN (leer, wenn nichts genutzt wird)."""
+    from . import shield, vpn
+    tiles, items = [], []
+    found = store.breaches()
+    last = store.get_kv("breach_last_check")
+    if found or last:
+        tiles.append(("Datenlecks", len(found)))
+        for email, b, _ in found[:12]:
+            items.append(f"<li><b>{html.escape(b.get('Title', b['Name']))}</b> ({html.escape(b.get('BreachDate', ''))}) – "
+                         f"{html.escape(email)}: {html.escape(', '.join(b.get('DataClasses', [])[:5]))}</li>")
+    stats = shield.folder() / "stats.json"
+    if stats.exists():
+        st = json.loads(stats.read_text())
+        tiles.append(("DNS-Anfragen blockiert", st["blocked"]))
+    v = vpn.load()
+    if v:
+        tiles.append(("VPN-Geräte", len(v["peers"])))
+    if not tiles:
+        return ""
+    tile_html = "".join(f'<div class="tile"><div class="v">{n}</div><div class="k">{k}</div></div>' for k, n in tiles)
+    note = f'<p class="lead">Letzte Leak-Prüfung: {_d(last)}</p>' if last else ""
+    lst = f'<ul class="leaks">{"".join(items)}</ul>' if items else ""
+    return f'<h2>Sicherheit</h2>{note}<div class="tiles">{tile_html}</div>{lst}<h2>Datenhändler</h2>'
 
 
 def render(store, broker_index):
@@ -77,7 +104,9 @@ def render(store, broker_index):
 * {{ box-sizing:border-box }}
 body {{ margin:0; background:var(--bg); color:var(--fg); font:15px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif }}
 main {{ max-width:1100px; margin:0 auto; padding:32px 16px 64px }}
-h1 {{ font-size:24px; margin:0 0 4px }} .lead {{ color:var(--mut); margin:0 0 24px }}
+h1 {{ font-size:24px; margin:0 0 4px }} h2 {{ font-size:17px; margin:28px 0 10px }}
+.leaks {{ background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px 16px 12px 32px; margin:0 0 8px }}
+.leaks li {{ margin:4px 0 }} .lead {{ color:var(--mut); margin:0 0 24px }}
 .tiles {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin-bottom:20px }}
 .tile {{ background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 16px }}
 .tile .v {{ font-size:26px; font-weight:650; font-variant-numeric:tabular-nums }} .tile .k {{ color:var(--mut); font-size:13px }}
@@ -97,7 +126,7 @@ tr:last-child td {{ border-bottom:0 }} td.num {{ color:var(--mut); font-variant-
 </style></head><body><main>
 <h1>Datenputz</h1>
 <p class="lead">Stand {now.strftime('%d.%m.%Y %H:%M')} UTC · {pct}% der erfassten Händler erledigt</p>
-<div class="tiles">{tile_html}</div>
+{security(store)}<div class="tiles">{tile_html}</div>
 <div class="bar" role="img" aria-label="{pct}% erledigt"><span></span></div>
 <div class="tools"><input id="q" placeholder="Händler oder Person suchen…" aria-label="Suche">
 <select id="st" aria-label="Status"><option value="">Alle Status</option>{options}</select></div>
