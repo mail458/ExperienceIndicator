@@ -1,6 +1,5 @@
 """Antworten der Händler im Postfach (IMAP) finden und automatisch einordnen."""
 import email
-import getpass
 import imaplib
 import json
 import re
@@ -115,7 +114,7 @@ def process(store, engine, messages, apply=False):
 def fetch(cfg, days=60):
     """Mails der letzten `days` Tage per IMAP holen (nur lesend)."""
     from . import keystore
-    password = keystore.get("imap") or keystore.get("smtp") or getpass.getpass(f"IMAP-Passwort für {cfg['user']}: ")
+    password = keystore.get("imap") or keystore.require("smtp", f"IMAP-Passwort für {cfg['user']}: ")
     conn = imaplib.IMAP4_SSL(cfg["host"], cfg.get("port", 993))
     conn.login(cfg["user"], password)
     try:

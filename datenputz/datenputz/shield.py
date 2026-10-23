@@ -135,6 +135,12 @@ def parse_query(data):
     return data[:2], ".".join(labels).lower(), qtype, pos + 4
 
 
+def build_query(name, qtype=1, qid=b"\x00\x00"):
+    """Einfache DNS-Anfrage mit Rekursionswunsch (für Tests und den Selbsttest)."""
+    labels = b"".join(bytes([len(x)]) + x.encode("ascii") for x in name.strip(".").split("."))
+    return qid + b"\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00" + labels + b"\x00" + struct.pack(">HH", qtype, 1)
+
+
 def blocked_answer(query, qend, qtype):
     """Antwort 0.0.0.0 bzw. :: (wie Pi-hole „NULL“); andere Typen ohne Daten."""
     rd = query[2] & 0x01

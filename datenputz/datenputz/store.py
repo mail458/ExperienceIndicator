@@ -124,6 +124,24 @@ class Store:
             "INSERT OR IGNORE INTO findings(kind, subject, key, source, severity, data, found) "
             "SELECT 'breach', email, name, 'hibp', 'mittel', data, found FROM breaches")
         self.db.commit()
+        if not self.get_kv("findings_v3"):
+            self._upgrade_findings()
+
+    def _upgrade_findings(self):
+        """Alte HIBP-Funde (Version 0.2) nachträglich bewerten und mit Maßnahmen versehen."""
+        from . import breach  # spät importiert: breach nutzt selbst store
+        for r in self.db.execute("SELECT * FROM findings WHERE source = 'hibp' AND kind = 'breach'").fetchall():
+            d = json.loads(r["data"])
+            if "actions" in d or "Name" not in d:
+                continue
+            f = breach._breach_finding(r["subject"], d)
+            self.db.execute("UPDATE findings SET severity = ?, data = ? WHERE kind = ? AND subject = ? AND key = ? "
+                            "AND source = ?", (f["severity"], json.dumps(f, ensure_ascii=False), r["kind"],
+                                               r["subject"], r["key"], r["source"]))
+        self.set_kv("findings_v3", True)
+
+    def close(self):
+        self.db.close()
 
     # --- Konfiguration -------------------------------------------------
     @property

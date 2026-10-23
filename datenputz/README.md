@@ -34,6 +34,7 @@ Alles läuft lokal, über dein eigenes Postfach und deinen eigenen Server. Es ge
 | `vpn …` | NordLynx, Kill Switch, Split Tunneling, Meshnet | eigener WireGuard-Server mit Pre-Shared Key je Gerät (Post-Quanten-Schicht) und DNS-Filter für alle Geräte |
 | `check [--expect-vpn]` | – | VPN aktiv? Öffentliche IP und Standort, IPv6- und DNS-Lecks |
 | `password` | NordPass-Generator | starke Zufallspasswörter, optional mit Leckprüfung |
+| `doctor` · `daily` · `schedule` · `notify` · `web` | App, Autopilot, Push | Selbsttest, täglicher Automatiklauf, Zeitsteuerung, Handy-Benachrichtigung, Web-Oberfläche |
 
 ## Schnellstart
 
@@ -51,17 +52,38 @@ python3 -m datenputz report          # Dashboard: ~/.datenputz/report.html
 
 Wer kein SMTP nutzen will, nimmt `run --outbox`. Dann landen die Mails als `.eml`-Dateien in `~/.datenputz/outbox` und lassen sich im Mailprogramm öffnen und abschicken.
 
-### Täglich automatisch
+### Selbsttest, Automatik, Handy, Web-Oberfläche
 
-```cron
-# m h dom mon dow
-17 8 * * *  cd /pfad/zu/datenputz && python3 -m datenputz inbox --apply && python3 -m datenputz run --send --yes && python3 -m datenputz report
-43 7 * * *  cd /pfad/zu/datenputz && python3 -m datenputz breach email --notify --new-only
-29 6 * * 1  cd /pfad/zu/datenputz && python3 -m datenputz alias scan --days 8
-11 4 * * 1  cd /pfad/zu/datenputz && python3 -m datenputz shield update
+```bash
+python3 -m datenputz doctor                    # Ampel: Rechte, Schlüsselbund, HIBP-Tarif, Quellen, DoH, SMTP/IMAP-Anmeldung
+python3 -m datenputz secret set smtp           # Passwörter in den Schlüsselbund – die Automatik fragt nie nach
+python3 -m datenputz notify setup ntfy         # Push aufs Handy (ntfy-App, geheimes Zufallsthema)
+python3 -m datenputz schedule install --time 07:43   # täglicher Lauf: systemd / launchd / Windows-Aufgabenplanung
+python3 -m datenputz web --open                # Web-Oberfläche im Browser
 ```
 
-Passwörter und Schlüssel holt sich Datenputz aus dem Schlüsselbund (`secret set smtp`, `secret set hibp`). Umgebungsvariablen wie `DATENPUTZ_SMTP_PASSWORD` gehen ebenfalls.
+**`daily`** ist der tägliche Lauf, den die Zeitsteuerung startet. Er liest Antworten, sendet Löschanträge und Erinnerungen, prüft Leaks und Aliase, frischt die Sperrlisten wöchentlich auf und erneuert das Dashboard. Gemeldet wird **nur, wenn es etwas zu tun gibt**: ernste Funde, Aufgaben, Bestätigungen von Händlern oder Fehler. Die Meldungen sind standardmäßig knapp und nennen nur Anzahlen, keine Adressen oder Dienste. Details gibt es mit `notify setup … --full`. Kanäle: ntfy (auch selbst gehostet), Gotify, Telegram, Mail.
+
+**Web-Oberfläche** (`web`) mit fünf Bereichen:
+- **Übersicht** mit Privatsphäre-Wert (0–100) und den nächsten Schritten
+- **Aufgaben:** Formulartexte zum Kopieren und Beschwerdeentwürfe, mit Knöpfen wie „Abgeschickt“
+- **Löschanfragen:** alle Anfragen, Status per Auswahl ändern
+- **Leaks:** Maßnahmenplan zum Abhaken
+- **Prüfen:** Link-/Betrugsprüfung und Selbsttest
+
+Abgesichert ist sie so:
+- Sie lauscht nur auf 127.0.0.1. Auf dem Server nutzt du `web --listen vpn --allow-remote`, dann ist sie nur über das WireGuard-VPN erreichbar.
+- Zugang nur über einen geheimen Link aus dem Terminal. Er setzt ein Sitzungs-Cookie (HttpOnly, SameSite=Strict).
+- Schutz gegen DNS-Rebinding, CSRF und fremde Herkunft, Bremse gegen Durchprobieren.
+- Strenge Content-Security-Policy, keine Anzeige von Passwörtern oder Schlüsseln.
+
+Ohne Dienstplaner (z. B. in einem Container) gibt `schedule install` eine Cron-Zeile aus. Von Hand geht es auch so:
+
+```cron
+43 7 * * *  cd /pfad/zu/datenputz && python3 -m datenputz daily >> ~/.datenputz/daily.log 2>&1
+```
+
+Passwörter und Schlüssel holt sich Datenputz aus dem Schlüsselbund (`secret set smtp`, `secret set hibp`). Umgebungsvariablen wie `DATENPUTZ_SMTP_PASSWORD` gehen ebenfalls. Fehlt ein Passwort, meldet der Lauf das, statt hängen zu bleiben.
 
 `run` ist idempotent: Bei jedem Aufruf erledigt es genau das, was gerade fällig ist (neue Anfragen innerhalb des Tageslimits, Erinnerungen, Beschwerdeentwürfe, neue Runden).
 

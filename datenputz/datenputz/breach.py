@@ -62,19 +62,21 @@ STEALER_ACTION = ("kritisch", "Ein Gerät war mit Schadsoftware (Infostealer) in
                   "aufsetzen, DANACH von einem sauberen Gerät aus alle Passwörter ändern, alle Sitzungen abmelden "
                   "(„überall abmelden“), Zwei-Faktor-Anmeldung neu einrichten, Krypto-Wallets umziehen.")
 DATA_ACTIONS = [
-    (("credit card", "bank account", "iban", "payment"), "kritisch",
+    (("credit card", "bank account", "iban", "payment", "kreditkart", "bankverbindung", "kontonummer",
+      "kontoverbindung"), "kritisch",
      "Bank bzw. Kartenanbieter informieren, Karte sperren lassen (Sperr-Notruf 116 116), Umsätze prüfen."),
-    (("government issued", "passport", "social security", "national id", "tax", "driver"), "kritisch",
+    (("government issued", "passport", "social security", "national id", "tax", "driver", "ausweis", "reisepass",
+      "steuer", "führerschein"), "kritisch",
      "Ausweisdaten betroffen: SCHUFA-Selbstauskunft und Konten prüfen, bei Missbrauch Anzeige erstatten."),
-    (("password", "auth token", "security token"), "hoch",
+    (("passw", "kennw", "auth token", "security token"), "hoch",
      "Passwort bei {site} und überall, wo es ebenfalls genutzt wurde, ändern; Zwei-Faktor-Anmeldung aktivieren."),
-    (("security questions",), "hoch",
+    (("security questions", "sicherheitsfrage"), "hoch",
      "Sicherheitsfragen bei allen Diensten ändern (Antworten als Zufallswert im Passwortmanager)."),
-    (("phone",), "mittel",
+    (("phone", "telefon", "handy"), "mittel",
      "Mit Betrugs-SMS und -Anrufen rechnen; beim Mobilfunkanbieter ein Kundenkennwort gegen SIM-Tausch setzen."),
-    (("physical address",), "mittel",
+    (("physical address", "anschrift", "postadresse", "wohnadresse"), "mittel",
      "Adresse im Umlauf: Datenputz-Löschanträge laufen lassen, mit gefälschten Briefen/Rechnungen rechnen."),
-    (("date of birth", "dates of birth"), "mittel",
+    (("date of birth", "dates of birth", "geburtsdatum", "geburtstag"), "mittel",
      "Geburtsdatum nie als Sicherheitsmerkmal nutzen; SCHUFA-Selbstauskunft prüfen."),
 ]
 DEFAULT_ACTION = ("info", "Phishing-Mails, die sich auf {site} berufen, besonders misstrauisch prüfen.")

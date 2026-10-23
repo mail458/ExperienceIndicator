@@ -1,5 +1,4 @@
 """Versand: SMTP oder Entwurfsordner (.eml-Dateien zum Prüfen/Versenden im Mailprogramm)."""
-import getpass
 import re
 import smtplib
 import ssl
@@ -60,7 +59,7 @@ class SMTPMailer:
     def _connect(self):
         c = self.cfg
         from . import keystore
-        password = keystore.get("smtp") or getpass.getpass(f"SMTP-Passwort für {c['user']}: ")
+        password = keystore.require("smtp", f"SMTP-Passwort für {c['user']}: ")
         ctx = ssl.create_default_context()
         if c.get("security", "starttls") == "ssl":
             conn = smtplib.SMTP_SSL(c["host"], c.get("port", 465), context=ctx, timeout=60)

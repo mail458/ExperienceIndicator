@@ -11,6 +11,7 @@ from . import darkweb_cli
 from . import engine as E
 from . import inbox as I
 from . import mailer as M
+from . import ops_cli
 from . import report as R
 from . import security_cli
 from . import store as S
@@ -289,6 +290,7 @@ def parser():
     p.add_argument("--days", type=int, default=60); p.add_argument("--apply", action="store_true")
     p.add_argument("--eml-dir", help="statt IMAP: Ordner mit gespeicherten .eml-Dateien")
     p = sub.add_parser("report", help="HTML-Übersicht erzeugen"); p.add_argument("-o", "--output")
+    ops_cli.register(sub)
     darkweb_cli.register(sub)
     security_cli.register(sub)
     return ap

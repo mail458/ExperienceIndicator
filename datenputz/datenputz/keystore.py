@@ -17,6 +17,10 @@ NAMES = {
     "smtp": ("DATENPUTZ_SMTP_PASSWORD", "SMTP-Passwort"),
     "imap": ("DATENPUTZ_IMAP_PASSWORD", "IMAP-Passwort"),
     "abusech": ("ABUSE_CH_AUTH_KEY", "abuse.ch Auth-Key (MalwareBazaar)"),
+    "ntfy": ("DATENPUTZ_NTFY_TOKEN", "ntfy-Zugangstoken (optional)"),
+    "gotify": ("DATENPUTZ_GOTIFY_TOKEN", "Gotify-App-Token"),
+    "telegram": ("DATENPUTZ_TELEGRAM_TOKEN", "Telegram-Bot-Token"),
+    "web": ("DATENPUTZ_WEB_TOKEN", "Zugangstoken der Web-Oberfläche"),
 }
 
 
@@ -116,3 +120,15 @@ def status(store=None):
             "config.json" if ((store or S.Store()).config().get("secrets") or {}).get(name) else "–"
         out.append((name, label, where))
     return out
+
+
+def require(name, prompt, store=None):
+    """Geheimnis holen; ohne Terminal (Zeitsteuerung, Web) nie auf eine Eingabe warten."""
+    import getpass
+    import sys
+    v = get(name, store)
+    if v:
+        return v
+    if not sys.stdin or not sys.stdin.isatty():
+        raise RuntimeError(f"{NAMES[name][1]} nicht hinterlegt – einmalig `python -m datenputz secret set {name}`")
+    return getpass.getpass(prompt)
