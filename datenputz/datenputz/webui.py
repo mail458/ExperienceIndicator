@@ -247,8 +247,13 @@ def _strip_head(text):
     return text.split("Text zum Einfügen:\n", 1)[-1].lstrip()
 
 
+KIND_PRIORITY = {"Einrichtung": 0, "Leak · kritisch": 1, "Ausweis verlangt": 2, "Beschwerde": 3, "Leak · hoch": 4,
+                 "Formular": 5, "Brief": 6, "Vierteljährlich": 7, "Passwörter": 8}
+
+
 def ordered_cards(st):
-    cards = today_cards(st)
+    """Dringendstes zuerst; „Später“ geschobene Karten ans Ende."""
+    cards = sorted(today_cards(st), key=lambda c: KIND_PRIORITY.get(c["kind"], 9))
     skip = st.get_kv("today_skip") or {}
     skipped = set(skip.get("keys", [])) if skip.get("d") == S.now().date().isoformat() else set()
     return [c for c in cards if c["key"] not in skipped] + [c for c in cards if c["key"] in skipped]
